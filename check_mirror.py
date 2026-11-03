@@ -26,8 +26,13 @@ SITE = ROOT / "site"
 MD = ROOT / "markdown"
 
 ATTR_RE = re.compile(r'\b(href|src|poster|srcset)="([^"]*)"', re.I)
-# Hugo 有时输出无引号的属性（id=foo），三种写法都要认
-ID_RE = re.compile(r"""\b(?:id|name)\s*=\s*(?:"([^"]+)"|'([^']+)'|([^\s>"']+))""")
+# 属性名必须是真正的属性名：前面不能是单词字符或连字符（否则 data-id 会被当成 id），
+# 无引号的值也不能吞掉 "<"（否则代码样例里的 id=id</code> 会解析出错）
+ID_RE = re.compile(
+    r"""(?<![\w-])(?:id|name)\s*=\s*(?:"([^"]+)"|'([^']+)'|([^\s>"'<]+))""")
+# 注释与代码区域里的 id= 只是文本，不是真锚点
+STRIP_RE = re.compile(
+    r"<!--.*?-->|<(script|style|pre|code)\b[^>]*>.*?</\1\s*>", re.S | re.I)
 MD_LINK_RE = re.compile(r"\]\(([^)\s]+)\)")
 FENCE_RE = re.compile(r"^\s*```.*?^\s*```", re.S | re.M)
 SKIP = ("#", "mailto:", "javascript:", "data:", "tel:")
@@ -42,6 +47,7 @@ def ids_of(path: Path) -> set[str]:
             text = path.read_text(encoding="utf-8", errors="ignore")
         except OSError:
             text = ""
+        text = STRIP_RE.sub(" ", text)
         for match in ID_RE.finditer(text):
             value = match.group(1) or match.group(2) or match.group(3)
             if value:
@@ -50,16 +56,23 @@ def ids_of(path: Path) -> set[str]:
     return ID_CACHE[path]
 
 
-def urls_in(value: str) -> list[str]:
-    """`srcset` 里是 "a.png 1x, b.png 2x"，拆成单个 URL。"""
-    if "," in value or " " in value:
-        out = []
-        for item in value.split(","):
-            item = item.strip().split(" ")[0]
-            if item:
-                out.append(item)
-        return out
-    return [value.strip()]
+def urls_in(value: str, is_srcset: bool = False) -> list[str]:
+    """拆出真实 URL。`srcset` 是 "a.png 1x, b.png 2x"；data URL 直接跳过
+    （它的 base64 里带逗号，按逗号拆会产生伪 URL）。"""
+    value = value.strip()
+    if value.lower().startswith("data:"):
+        return []
+    if not is_srcset:
+        return [value] if value else []
+    if "data:" in value.lower():
+        # data URL 的 base64 里带逗号，按逗号拆必然出错；宁可整体跳过也不产生伪 URL
+        return []
+    out = []
+    for item in value.split(","):
+        url = item.strip().split(" ")[0]
+        if url and not url.lower().startswith("data:"):
+            out.append(url)
+    return out
 
 
 def check_html() -> tuple[int, int, Counter, Counter]:
@@ -70,7 +83,7 @@ def check_html() -> tuple[int, int, Counter, Counter]:
     for page in sorted(SITE.rglob("*.html")):
         html = page.read_text(encoding="utf-8", errors="ignore")
         for attr, value in ATTR_RE.findall(html):
-            for url in urls_in(value):
+            for url in urls_in(value, attr.lower() == "srcset"):
                 if not url or url.lower().startswith(SKIP):
                     continue
                 parts = urlsplit(url)

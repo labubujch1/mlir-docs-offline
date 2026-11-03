@@ -103,6 +103,36 @@ for bad in (["--jobs", "0"], ["--batch", "0"], ["--max-pages", "-1"]):
 for name, ok in cli_checks.items():
     print(("PASS  " if ok else "FAIL  ") + name)
 
+# ---- check_mirror 解析器的回归测试（copilot 复查指出的两处）----
+import check_mirror as c
+
+with tempfile.TemporaryDirectory() as tmp:
+    page = _Path(tmp) / "p.html"
+    page.write_text(
+        '<div data-id="ghost"></div>'
+        '<code>id=id</code>'
+        '<h2 id=real>t</h2>'
+        '<!-- id = "note" -->'
+        '<pre>id=fake</pre>',
+        encoding="utf-8")
+    found = c.ids_of(page)
+    parser_checks = {
+        "real id 保留": "real" in found,
+        "data-id 不算": "ghost" not in found,
+        "code 里的 id= 不算": "id" not in found,
+        "注释里的 id 不算": "note" not in found,
+        "pre 里的 id= 不算": "fake" not in found,
+        "data URL 跳过": c.urls_in("data:image/png;base64,AAAA") == [],
+        "srcset 正常拆分": c.urls_in("a.png 1x, b.png 2x", True) == ["a.png", "b.png"],
+        "srcset 里的 data URL 整体跳过":
+            c.urls_in("a.png 1x, data:image/png;base64,X 2x", True) == [],
+        "普通 URL 不被逗号拆开": c.urls_in("https://x/y.png") == ["https://x/y.png"],
+    }
+
+for name, ok in parser_checks.items():
+    print(("PASS  " if ok else "FAIL  ") + name)
+
 all_ok = all(list(checks.values()) + list(md_checks.values())
-             + list(path_checks.values()) + list(cli_checks.values()))
+             + list(path_checks.values()) + list(cli_checks.values())
+             + list(parser_checks.values()))
 sys.exit(0 if all_ok else 1)
