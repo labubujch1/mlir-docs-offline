@@ -1,0 +1,13 @@
+# 上游死链的本地处置（依据 T5 报告：deliveries/20261103-152500-copilot-T5-dead-links.md）
+#
+# 列：旧URL <TAB> 动作 <TAB> 新URL 或 说明
+#   replace = 把旧 URL 换成新 URL（镜像与 Markdown 都换）
+#   note    = 图已失效：删掉 <img>，在原位留一行文字说明
+#
+# 注意：重新抓取（crawl_mlir_docs.py）会覆盖 site/ 与 markdown/，
+# 抓完必须再跑一次 tools/apply_link_fixes.py。
+
+https://mlir.llvm.org/docs/SymbolsAndSymbolTables/Dialects/Builtin.md/dictionaryattr	replace	https://mlir.llvm.org/docs/Dialects/Builtin/#dictionaryattr
+http://homepages.inf.ed.ac.uk/hleather/publications/2009_autofeatures_cgo.pdf	replace	https://doi.org/10.1109/CGO.2009.21
+https://lirias.kuleuven.be/bitstream/123456789/497238/1/toplas-astgen.pdf	replace	https://doi.org/10.1145/2743016
+https://mlir.llvm.org/actions/ActionTracing_ExecutionContext.png	note	上游配图已失效（HTTP 404）；正文已说明 ExecutionContext 的 action 栈、Observers、BreakpointManager 与回调机制
