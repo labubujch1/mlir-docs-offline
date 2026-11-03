@@ -12,6 +12,7 @@ import zipfile
 from pathlib import Path
 
 SRC = Path(__file__).resolve().parent.parent
+EXCLUDE_DIRS = {"__pycache__", ".git"}
 CANDIDATE_DIRS = [
     Path("/mnt/c/Users/jinch/OneDrive/Desktop"),
     Path("/mnt/c/Users/jinch/Desktop"),
@@ -39,7 +40,7 @@ def main() -> int:
     dest = dest_dir / args.name
 
     files = [p for p in sorted(SRC.rglob("*"))
-             if p.is_file() and "__pycache__" not in p.parts]
+             if p.is_file() and not EXCLUDE_DIRS.intersection(p.parts)]
     total = sum(p.stat().st_size for p in files)
     print(f"packing {len(files)} files ({total / 1e6:.1f} MB) -> {dest}")
 
