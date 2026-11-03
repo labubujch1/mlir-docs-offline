@@ -9,7 +9,7 @@ Static mirror of <https://mlir.llvm.org/docs/> (the whole documentation tree), g
 | Markdown, one file per page | `markdown/` | 6.2 MB |
 | everything in one file | `ALL_DOCS.md` | good for LLM input / grep |
 | per-URL status log | `crawl_report.txt` | |
-| bilingual print edition (中英对照) | `print/` | 4 volumes + combined, see `print/README-print.md` |
+| bilingual print edition (中英对照) | `print/` | 6 册（vol4 拆三卷）+ 合集，见 `print/README-print.md` |
 | 校验与打包脚本 | `tools/` | 11 个脚本，见 `tools/README.md` |
 
 ## How to read it

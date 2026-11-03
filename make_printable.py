@@ -41,6 +41,11 @@ VOLUMES = [
     ("vol4", "vol4-dialects.html", "方言操作符参考", "Dialect Reference"),
 ]
 
+# 单卷页数过大时再拆：vol4 拆成 3 份（每份约 500 页，浏览器打 PDF 才稳）
+SPLIT = {"vol4": 3}
+CN_NUM = ["一", "二", "三", "四", "五", "六"]
+PART_LETTERS = "abcdef"
+
 QUOTE_MAP = {
     "\u2018": "'", "\u2019": "'", "\u201c": '"', "\u201d": '"',
     "\u00a0": " ", "\u2013": "-", "\u2014": "-", "\u2026": "...",
@@ -384,6 +389,26 @@ def collect_docs(level1: dict[str, str], table: dict[str, str]) -> list[dict]:
     return docs
 
 
+def split_evenly(docs: list[dict], parts: int) -> list[list[dict]]:
+    """按估算页数把 docs 顺序切成 parts 份（保持原顺序，尽量等分）。"""
+    if parts <= 1 or len(docs) <= parts:
+        return [docs]
+    total = sum(doc["pages"] for doc in docs) or 1.0
+    groups: list[list[dict]] = []
+    current: list[dict] = []
+    running = 0.0
+    for doc in docs:
+        current.append(doc)
+        running += doc["pages"]
+        threshold = total * (len(groups) + 1) / parts
+        if len(groups) < parts - 1 and running >= threshold:
+            groups.append(current)
+            current = []
+    if current:
+        groups.append(current)
+    return groups
+
+
 def number_for_output(docs: list[dict]) -> list[dict]:
     """Assign 1..N chapter numbers for one output file (each volume restarts at 1)."""
     numbered = []
@@ -454,6 +479,9 @@ def write_print_readme(volumes: list[tuple[str, int, float]]) -> None:
 | --- | --- | --- | --- |
 {rows}
 
+> `all-in-one.html`（124 篇，约 2,152 页）只适合屏幕检索和整本搜索，**不建议一次打印**——
+> 单文件太大，浏览器生成 PDF 容易卡死或爆内存。要整本请按上面的分卷打印。
+
 ## 怎么打印成 PDF
 
 1. 用 Chrome / Edge 打开其中一个 html（例如 `vol1-core.html`）。
@@ -466,6 +494,8 @@ def write_print_readme(volumes: list[tuple[str, int, float]]) -> None:
 
 * 每篇文档从新页开始（h1 强制分页），标题上方有 `第 N 篇 · CHAPTER N`。
 * 标题为**中英对照**：中文在前，英文原标题紧随其后（灰色小字）。
+* `vol4` 按页数**均衡拆成三卷**（512 / 527 / 474 页），每卷独立编号、独立目录，
+  这样单个 HTML 体积控制在 3 MB 左右，浏览器打 PDF 不会卡死。
 * 目录两级：篇 + 二级小节，带 `1.`、`1.2` 编号，点击可跳转；导出的 PDF 里
   Chrome 还会自动用标题生成书签。
 * 操作/属性/类型名（`arith.addf` 等）不翻译，保证可检索。
@@ -501,23 +531,32 @@ def main(argv=None) -> int:
         subset = by_volume.get(key, [])
         if not subset:
             continue
-        pages = sum(d["pages"] for d in subset)
-        summary.append((filename, len(subset), pages))
-        if args.only and args.only != key:
-            continue
-        title_zh, title_en = f"{zh}", f"MLIR {en}"
-        meta = (f"第 {position} 卷 / 共 {len(VOLUMES)} 卷<br>"
-                f"{len(subset)} 篇 · 约 {pages:,.0f} 页 A4 · "
-                f"双面约 {pages / 2:,.0f} 张<br>生成日期 {time.strftime('%Y-%m-%d')}")
-        numbered = number_for_output(subset)
-        html_text = build_document(
-            title_zh, title_en, meta,
-            build_toc(numbered, zh, en),
-            build_chapters(numbered),
-            build_colophon(numbered, pages))
-        (OUT / filename).write_text(html_text, encoding="utf-8")
-        print(f"  {filename:24s} {len(subset):3d} 篇  ~{pages:,.0f} 页  "
-              f"{(OUT / filename).stat().st_size / 1e6:.1f} MB")
+        parts = split_evenly(subset, SPLIT.get(key, 1))
+        for index, group in enumerate(parts):
+            split = len(parts) > 1
+            letter = PART_LETTERS[index] if split else ""
+            name = filename.replace(f"{key}-", f"{key}{letter}-") if split else filename
+            part_zh = f"{zh}（{CN_NUM[index]}）" if split else zh
+            part_en = f"{en} ({index + 1}/{len(parts)})" if split else en
+            pages = sum(doc["pages"] for doc in group)
+            summary.append((name, len(group), pages))
+            if args.only and args.only != key:
+                continue
+
+            which = f"第 {position} 卷之{CN_NUM[index]}" if split else f"第 {position} 卷"
+            meta = (f"{which} / 共 {len(VOLUMES)} 卷<br>"
+                    f"{len(group)} 篇 · 约 {pages:,.0f} 页 A4 · "
+                    f"双面约 {pages / 2:,.0f} 张<br>"
+                    f"生成日期 {time.strftime('%Y-%m-%d')}")
+            numbered = number_for_output(group)
+            html_text = build_document(
+                part_zh, f"MLIR {part_en}", meta,
+                build_toc(numbered, part_zh, part_en),
+                build_chapters(numbered),
+                build_colophon(numbered, pages))
+            (OUT / name).write_text(html_text, encoding="utf-8")
+            print(f"  {name:24s} {len(group):3d} 篇  ~{pages:,.0f} 页  "
+                  f"{(OUT / name).stat().st_size / 1e6:.1f} MB")
 
     if not args.only:
         pages = sum(d["pages"] for d in docs)

@@ -6,9 +6,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 PRINT = ROOT / "print"
 
-for name in ("vol1-core.html", "vol2-tutorials.html", "vol3-rationale.html",
-             "vol4-dialects.html", "all-in-one.html"):
-    path = PRINT / name
+for path in sorted(PRINT.glob("*.html")):
+    name = path.name
     text = path.read_text(encoding="utf-8")
 
     # 1) images resolve
