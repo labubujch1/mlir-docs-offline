@@ -1,0 +1,828 @@
+# 待补译的三级标题（h3）：english <TAB> 中文 <TAB> 出现次数 <TAB> 示例文件
+# 填好第二列后，把本文件相关行并入 i18n/headings_zh.tsv，再跑 make_printable.py
+
+Methods:		18	markdown/DataLayout.md
+CmpFPredicate		4	markdown/Dialects/ArithOps.md
+CmpIPredicate		4	markdown/Dialects/ArithOps.md
+IntegerOverflowFlags		4	markdown/Dialects/ArithOps.md
+RoundingMode		4	markdown/Dialects/ArithOps.md
+AtomicRMWKind		4	markdown/Dialects/ArithOps.md
+FastMathFlags		4	markdown/Dialects/ArithOps.md
+Extra declarations		3	markdown/DefiningDialects/AttributesAndTypes.md
+Initialization		3	markdown/DefiningDialects.md
+TokenType		3	markdown/Dialects/AsyncDialect.md
+Features		3	markdown/Tools/MLIRLSP.md
+Scope		2	markdown/CAPI.md
+Class Name		2	markdown/DefiningDialects/AttributesAndTypes.md
+Documentation		2	markdown/DefiningDialects/AttributesAndTypes.md
+Parsing and Printing		2	markdown/DefiningDialects/AttributesAndTypes.md
+Dependent Dialects		2	markdown/DefiningDialects.md
+Strict Property Assembly Formats		2	markdown/DefiningDialects.md
+Type Converter		2	markdown/DialectConversion.md
+BufferOOBMode		2	markdown/Dialects/AMDGPU.md
+Gfx12AtomicCachePolicy		2	markdown/Dialects/AMDGPU.md
+Gfx12CachePolicy		2	markdown/Dialects/AMDGPU.md
+Gfx942CachePolicy		2	markdown/Dialects/AMDGPU.md
+MFMANegModifier		2	markdown/Dialects/AMDGPU.md
+MFMAPermB		2	markdown/Dialects/AMDGPU.md
+MatrixFormat		2	markdown/Dialects/AMDGPU.md
+PreGfx12CachePolicy		2	markdown/Dialects/AMDGPU.md
+SchedGroupMask		2	markdown/Dialects/AMDGPU.md
+WMMACModifier		2	markdown/Dialects/AMDGPU.md
+WMMAMatrixScale		2	markdown/Dialects/AMDGPU.md
+WMMAMatrixScaleFormat		2	markdown/Dialects/AMDGPU.md
+ValueType		2	markdown/Dialects/AsyncDialect.md
+OpaqueAttr		2	markdown/Dialects/Builtin.md
+OpaqueType		2	markdown/Dialects/Builtin.md
+ArrayType		2	markdown/Dialects/EmitC.md
+OperationType		2	markdown/Dialects/PDLOps.md
+Discussion		2	markdown/Dialects/Vector.md
+Properties: beyond attributes		2	markdown/ReleaseNotes.md
+Compilation Database		2	markdown/Tools/MLIRLSP.md
+Debug Counters		1	markdown/ActionTracing.md
+ExecutionContext		1	markdown/ActionTracing.md
+Pre-requisites		1	markdown/Bindings/Python.md
+CMake variables		1	markdown/Bindings/Python.md
+Recommended development practices		1	markdown/Bindings/Python.md
+Use cases		1	markdown/Bindings/Python.md
+Composable modules		1	markdown/Bindings/Python.md
+Submodules		1	markdown/Bindings/Python.md
+Loader		1	markdown/Bindings/Python.md
+Use the C-API		1	markdown/Bindings/Python.md
+Ownership in the Core IR		1	markdown/Bindings/Python.md
+Optionality and argument ordering in the Core IR		1	markdown/Bindings/Python.md
+Context Management		1	markdown/Bindings/Python.md
+Inspecting IR Objects		1	markdown/Bindings/Python.md
+Creating IR Objects		1	markdown/Bindings/Python.md
+Properties vs get*() methods		1	markdown/Bindings/Python.md
+**repr** methods		1	markdown/Bindings/Python.md
+CamelCase vs snake_case		1	markdown/Bindings/Python.md
+Prefer pseudo-containers		1	markdown/Bindings/Python.md
+Provide one stop helpers for common things		1	markdown/Bindings/Python.md
+Sample FileCheck test		1	markdown/Bindings/Python.md
+Extending the search path for wrapper modules		1	markdown/Bindings/Python.md
+Wrapper module code organization		1	markdown/Bindings/Python.md
+Other functionality		1	markdown/Bindings/Python.md
+Rewrite Patterns		1	markdown/Bindings/Python.md
+Primitives		1	markdown/BytecodeFormat.md
+Sections		1	markdown/BytecodeFormat.md
+Top Level Structure		1	markdown/BytecodeFormat.md
+String Section		1	markdown/BytecodeFormat.md
+Dialect Section		1	markdown/BytecodeFormat.md
+Attribute/Type Sections		1	markdown/BytecodeFormat.md
+Resource Section		1	markdown/BytecodeFormat.md
+IR Section		1	markdown/BytecodeFormat.md
+Object Model		1	markdown/CAPI.md
+Naming Convention and Ownership Model		1	markdown/CAPI.md
+Nullity		1	markdown/CAPI.md
+Type Hierarchies		1	markdown/CAPI.md
+Auxiliary Types		1	markdown/CAPI.md
+Printing		1	markdown/CAPI.md
+Indexed Components		1	markdown/CAPI.md
+Iterable Components		1	markdown/CAPI.md
+Extensions for Dialect Attributes and Types		1	markdown/CAPI.md
+Extensions for Interfaces		1	markdown/CAPI.md
+Scoping		1	markdown/DataLayout.md
+Compatibility and Transformations		1	markdown/DataLayout.md
+Queries		1	markdown/DataLayout.md
+Data Layout Specifications		1	markdown/DataLayout.md
+Data Layout Scoping Operations		1	markdown/DataLayout.md
+Types with Data Layout		1	markdown/DataLayout.md
+Dialects with Data Layout Identifiers		1	markdown/DataLayout.md
+Bits and Bytes		1	markdown/DataLayout.md
+Query Dispatch		1	markdown/DataLayout.md
+Built-in Modules		1	markdown/DataLayout.md
+Built-in Types		1	markdown/DataLayout.md
+Byte Size		1	markdown/DataLayout.md
+DLTI Dialect		1	markdown/DataLayout.md
+Source pattern		1	markdown/DeclarativeRewrites.md
+Result pattern		1	markdown/DeclarativeRewrites.md
+Supporting auxiliary ops		1	markdown/DeclarativeRewrites.md
+Supporting multi-result ops		1	markdown/DeclarativeRewrites.md
+Supporting variadic ops		1	markdown/DeclarativeRewrites.md
+Supplying additional constraints		1	markdown/DeclarativeRewrites.md
+Supplying additional result patterns		1	markdown/DeclarativeRewrites.md
+Adjusting benefits		1	markdown/DeclarativeRewrites.md
+Compilation error: no matching member function for call to 'build'		1	markdown/DeclarativeRewrites.md
+Adding a new Attribute or Type definition		1	markdown/DefiningDialects/AttributesAndTypes.md
+CMake Targets		1	markdown/DefiningDialects/AttributesAndTypes.md
+Mnemonic		1	markdown/DefiningDialects/AttributesAndTypes.md
+Builders		1	markdown/DefiningDialects/AttributesAndTypes.md
+Storage Classes		1	markdown/DefiningDialects/AttributesAndTypes.md
+Mutable attributes and types		1	markdown/DefiningDialects/AttributesAndTypes.md
+Mnemonic Alias in Assembly		1	markdown/DefiningDialects/AttributesAndTypes.md
+Registering with the Dialect		1	markdown/DefiningDialects/AttributesAndTypes.md
+Operation name		1	markdown/DefiningDialects/Operations.md
+Operation documentation		1	markdown/DefiningDialects/Operations.md
+Operation arguments		1	markdown/DefiningDialects/Operations.md
+Operation regions		1	markdown/DefiningDialects/Operations.md
+Operation results		1	markdown/DefiningDialects/Operations.md
+Operation successors		1	markdown/DefiningDialects/Operations.md
+Operation traits and constraints		1	markdown/DefiningDialects/Operations.md
+Builder methods		1	markdown/DefiningDialects/Operations.md
+Custom parser and printer methods		1	markdown/DefiningDialects/Operations.md
+Custom verifier code		1	markdown/DefiningDialects/Operations.md
+Declarative Assembly Format		1	markdown/DefiningDialects/Operations.md
+Extra definitions		1	markdown/DefiningDialects/Operations.md
+Generated C++ code		1	markdown/DefiningDialects/Operations.md
+Single-entity constraint		1	markdown/DefiningDialects/Operations.md
+Multi-entity constraint		1	markdown/DefiningDialects/Operations.md
+Trait		1	markdown/DefiningDialects/Operations.md
+How to specify new constraint		1	markdown/DefiningDialects/Operations.md
+Attribute decorators		1	markdown/DefiningDialects/Operations.md
+Wrapping enums in attributes		1	markdown/DefiningDialects/Operations.md
+Enum properties		1	markdown/DefiningDialects/Operations.md
+Reporting deprecation in TableGen		1	markdown/DefiningDialects/Operations.md
+Reporting deprecation in C++		1	markdown/DefiningDialects/Operations.md
+Requirements and existing mechanisms analysis		1	markdown/DefiningDialects/Operations.md
+C++ Namespace		1	markdown/DefiningDialects.md
+C++ Accessor Generation		1	markdown/DefiningDialects.md
+Discardable Attribute Verification		1	markdown/DefiningDialects.md
+Operation Interface Fallback		1	markdown/DefiningDialects.md
+Default Attribute/Type Parsers and Printers		1	markdown/DefiningDialects.md
+Dialect-wide Canonicalization Patterns		1	markdown/DefiningDialects.md
+Defining bytecode format for dialect attributes and types		1	markdown/DefiningDialects.md
+Defining an extensible dialect		1	markdown/DefiningDialects.md
+Defining a dynamic dialect		1	markdown/DefiningDialects.md
+Defining an operation at runtime		1	markdown/DefiningDialects.md
+Using an operation defined at runtime		1	markdown/DefiningDialects.md
+Defining a type at runtime		1	markdown/DefiningDialects.md
+Parsing types defined at runtime in an extensible dialect		1	markdown/DefiningDialects.md
+Using a type defined at runtime		1	markdown/DefiningDialects.md
+Defining an attribute at runtime		1	markdown/DefiningDialects.md
+Parsing attributes defined at runtime in an extensible dialect		1	markdown/DefiningDialects.md
+Using an attribute defined at runtime		1	markdown/DefiningDialects.md
+Implementation Details of Extensible Dialects		1	markdown/DefiningDialects.md
+Constructing a Diagnostic		1	markdown/Diagnostics.md
+Appending arguments		1	markdown/Diagnostics.md
+Attaching notes		1	markdown/Diagnostics.md
+Managing Metadata		1	markdown/Diagnostics.md
+Print Operation On Diagnostic		1	markdown/Diagnostics.md
+Print StackTrace On Diagnostic		1	markdown/Diagnostics.md
+Scoped Diagnostic Handler		1	markdown/Diagnostics.md
+SourceMgr Diagnostic Handler		1	markdown/Diagnostics.md
+SourceMgr Diagnostic Verifier Handler		1	markdown/Diagnostics.md
+Parallel Diagnostic Handler		1	markdown/Diagnostics.md
+Recursive Legality		1	markdown/DialectConversion.md
+Region Signature Conversion		1	markdown/DialectConversion.md
+AddressSpaceAttr		1	markdown/Dialects/AMDGPU.md
+ScopeAttr		1	markdown/Dialects/AMDGPU.md
+DPPPermAttr		1	markdown/Dialects/AMDGPU.md
+LoadTemporalHintAttr		1	markdown/Dialects/AMDGPU.md
+DsBarrierStateType		1	markdown/Dialects/AMDGPU.md
+TDMBaseType		1	markdown/Dialects/AMDGPU.md
+TDMDescriptorType		1	markdown/Dialects/AMDGPU.md
+TDMGatherBaseType		1	markdown/Dialects/AMDGPU.md
+AddressSpace		1	markdown/Dialects/AMDGPU.md
+DPPPerm		1	markdown/Dialects/AMDGPU.md
+LoadTemporalHint		1	markdown/Dialects/AMDGPU.md
+Dimensions and Symbols		1	markdown/Dialects/Affine.md
+Restrictions on Dimensions and Symbols		1	markdown/Dialects/Affine.md
+Affine Expressions		1	markdown/Dialects/Affine.md
+Affine Maps		1	markdown/Dialects/Affine.md
+Semi-affine maps		1	markdown/Dialects/Affine.md
+Integer Sets		1	markdown/Dialects/Affine.md
+FastMathFlagsAttr		1	markdown/Dialects/ArithOps.md
+IntegerOverflowFlagsAttr		1	markdown/Dialects/ArithOps.md
+CoroHandleType		1	markdown/Dialects/AsyncDialect.md
+CoroIdType		1	markdown/Dialects/AsyncDialect.md
+CoroStateType		1	markdown/Dialects/AsyncDialect.md
+GroupType		1	markdown/Dialects/AsyncDialect.md
+AffineMapAttr		1	markdown/Dialects/Builtin.md
+ArrayAttr		1	markdown/Dialects/Builtin.md
+DenseArrayAttr		1	markdown/Dialects/Builtin.md
+DenseResourceElementsAttr		1	markdown/Dialects/Builtin.md
+DenseStringElementsAttr		1	markdown/Dialects/Builtin.md
+DenseTypedElementsAttr		1	markdown/Dialects/Builtin.md
+DictionaryAttr		1	markdown/Dialects/Builtin.md
+FloatAttr		1	markdown/Dialects/Builtin.md
+IntegerAttr		1	markdown/Dialects/Builtin.md
+IntegerSetAttr		1	markdown/Dialects/Builtin.md
+SparseElementsAttr		1	markdown/Dialects/Builtin.md
+StringAttr		1	markdown/Dialects/Builtin.md
+SymbolRefAttr		1	markdown/Dialects/Builtin.md
+TypeAttr		1	markdown/Dialects/Builtin.md
+UnitAttr		1	markdown/Dialects/Builtin.md
+StridedLayoutAttr		1	markdown/Dialects/Builtin.md
+CallSiteLoc		1	markdown/Dialects/Builtin.md
+FileLineColRange		1	markdown/Dialects/Builtin.md
+FusedLoc		1	markdown/Dialects/Builtin.md
+NameLoc		1	markdown/Dialects/Builtin.md
+OpaqueLoc		1	markdown/Dialects/Builtin.md
+UnknownLoc		1	markdown/Dialects/Builtin.md
+BFloat16Type		1	markdown/Dialects/Builtin.md
+ComplexType		1	markdown/Dialects/Builtin.md
+Float4E2M1FNType		1	markdown/Dialects/Builtin.md
+Float6E2M3FNType		1	markdown/Dialects/Builtin.md
+Float6E3M2FNType		1	markdown/Dialects/Builtin.md
+Float8E3M4Type		1	markdown/Dialects/Builtin.md
+Float8E4M3Type		1	markdown/Dialects/Builtin.md
+Float8E4M3B11FNUZType		1	markdown/Dialects/Builtin.md
+Float8E4M3FNType		1	markdown/Dialects/Builtin.md
+Float8E4M3FNUZType		1	markdown/Dialects/Builtin.md
+Float8E5M2Type		1	markdown/Dialects/Builtin.md
+Float8E5M2FNUZType		1	markdown/Dialects/Builtin.md
+Float8E5M3FNUType		1	markdown/Dialects/Builtin.md
+Float8E8M0FNUType		1	markdown/Dialects/Builtin.md
+Float16Type		1	markdown/Dialects/Builtin.md
+Float32Type		1	markdown/Dialects/Builtin.md
+Float64Type		1	markdown/Dialects/Builtin.md
+Float80Type		1	markdown/Dialects/Builtin.md
+Float128Type		1	markdown/Dialects/Builtin.md
+FloatTF32Type		1	markdown/Dialects/Builtin.md
+FunctionType		1	markdown/Dialects/Builtin.md
+GraphType		1	markdown/Dialects/Builtin.md
+IndexType		1	markdown/Dialects/Builtin.md
+IntegerType		1	markdown/Dialects/Builtin.md
+MemRefType		1	markdown/Dialects/Builtin.md
+NoneType		1	markdown/Dialects/Builtin.md
+RankedTensorType		1	markdown/Dialects/Builtin.md
+TupleType		1	markdown/Dialects/Builtin.md
+UnrankedMemRefType		1	markdown/Dialects/Builtin.md
+UnrankedTensorType		1	markdown/Dialects/Builtin.md
+VectorType		1	markdown/Dialects/Builtin.md
+ComplexRangeFlags		1	markdown/Dialects/ComplexOps.md
+DataLayoutEntryAttr		1	markdown/Dialects/DLTIDialect.md
+DataLayoutSpecAttr		1	markdown/Dialects/DLTIDialect.md
+FunctionPointerAlignmentAttr		1	markdown/Dialects/DLTIDialect.md
+MapAttr		1	markdown/Dialects/DLTIDialect.md
+TargetDeviceSpecAttr		1	markdown/Dialects/DLTIDialect.md
+TargetSystemSpecAttr		1	markdown/Dialects/DLTIDialect.md
+LValueType		1	markdown/Dialects/EmitC.md
+PointerType		1	markdown/Dialects/EmitC.md
+PtrDiffTType		1	markdown/Dialects/EmitC.md
+SignedSizeTType		1	markdown/Dialects/EmitC.md
+SizeTType		1	markdown/Dialects/EmitC.md
+ClassType		1	markdown/Dialects/EmitC.md
+CmpPredicate		1	markdown/Dialects/EmitC.md
+Compilation overview		1	markdown/Dialects/GPU.md
+Default NVVM Compilation Pipeline: gpu-lower-to-nvvm-pipeline		1	markdown/Dialects/GPU.md
+Module serialization		1	markdown/Dialects/GPU.md
+Offloading LLVM translation		1	markdown/Dialects/GPU.md
+The binary operation		1	markdown/Dialects/GPU.md
+IndexCmpPredicateAttr		1	markdown/Dialects/IndexOps.md
+IndexCmpPredicate		1	markdown/Dialects/IndexOps.md
+Data Layout and Triple		1	markdown/Dialects/LLVM.md
+Functions		1	markdown/Dialects/LLVM.md
+PHI Nodes and Block Arguments		1	markdown/Dialects/LLVM.md
+Context-Level Values		1	markdown/Dialects/LLVM.md
+Globals		1	markdown/Dialects/LLVM.md
+Linkage		1	markdown/Dialects/LLVM.md
+Attribute Pass-Through		1	markdown/Dialects/LLVM.md
+Built-in Type Compatibility		1	markdown/Dialects/LLVM.md
+Additional Simple Types		1	markdown/Dialects/LLVM.md
+Additional Parametric Types		1	markdown/Dialects/LLVM.md
+Vector Types		1	markdown/Dialects/LLVM.md
+Structure Types		1	markdown/Dialects/LLVM.md
+Unsupported Types		1	markdown/Dialects/LLVM.md
+Debug Info		1	markdown/Dialects/LLVM.md
+Payload-Carrying Ops		1	markdown/Dialects/Linalg.md
+Data Representation: Views		1	markdown/Dialects/Linalg.md
+Metadata Ops		1	markdown/Dialects/Linalg.md
+Named Payload-Carrying Ops		1	markdown/Dialects/Linalg.md
+Named Payload Ops Specification		1	markdown/Dialects/Linalg.md
+YAML Based Named Structured Ops		1	markdown/Dialects/Linalg.md
+ExternAttr		1	markdown/Dialects/MLProgramOps.md
+MPI_ErrorClassEnumAttr		1	markdown/Dialects/MPI.md
+CommType		1	markdown/Dialects/MPI.md
+RequestType		1	markdown/Dialects/MPI.md
+RetvalType		1	markdown/Dialects/MPI.md
+StatusType		1	markdown/Dialects/MPI.md
+MPI_ErrorClassEnum		1	markdown/Dialects/MPI.md
+MPI_ReductionOpEnum		1	markdown/Dialects/MPI.md
+RcpRoundingModeAttr		1	markdown/Dialects/NVGPU.md
+TensorMapInterleaveKindAttr		1	markdown/Dialects/NVGPU.md
+TensorMapL2PromoKindAttr		1	markdown/Dialects/NVGPU.md
+TensorMapOOBKindAttr		1	markdown/Dialects/NVGPU.md
+TensorMapSwizzleKindAttr		1	markdown/Dialects/NVGPU.md
+DeviceAsyncTokenType		1	markdown/Dialects/NVGPU.md
+MBarrierGroupType		1	markdown/Dialects/NVGPU.md
+MBarrierTokenType		1	markdown/Dialects/NVGPU.md
+TensorMapDescriptorType		1	markdown/Dialects/NVGPU.md
+WarpgroupAccumulatorType		1	markdown/Dialects/NVGPU.md
+WarpgroupMatrixDescriptorType		1	markdown/Dialects/NVGPU.md
+FPRoundingMode		1	markdown/Dialects/NVGPU.md
+RcpRoundingMode		1	markdown/Dialects/NVGPU.md
+SaturationMode		1	markdown/Dialects/NVGPU.md
+TensorMapInterleaveKind		1	markdown/Dialects/NVGPU.md
+TensorMapL2PromoKind		1	markdown/Dialects/NVGPU.md
+TensorMapOOBKind		1	markdown/Dialects/NVGPU.md
+TensorMapSwizzleKind		1	markdown/Dialects/NVGPU.md
+Memory Space Details		1	markdown/Dialects/NVVMDialect.md
+Data Operations		1	markdown/Dialects/OpenACCDialect.md
+Recipes		1	markdown/Dialects/OpenACCDialect.md
+Routine		1	markdown/Dialects/OpenACCDialect.md
+Declare		1	markdown/Dialects/OpenACCDialect.md
+Implicit Data Attributes		1	markdown/Dialects/OpenACCDialect.md
+Redundant Clause Elimination		1	markdown/Dialects/OpenACCDialect.md
+DeclareActionAttr		1	markdown/Dialects/OpenACCDialect.md
+DeclareAttr		1	markdown/Dialects/OpenACCDialect.md
+ClauseDefaultValueAttr		1	markdown/Dialects/OpenACCDialect.md
+ActiveParDimsAttr		1	markdown/Dialects/OpenACCDialect.md
+ChunkSizeAttr		1	markdown/Dialects/OpenACCDialect.md
+CombinedConstructsTypeAttr		1	markdown/Dialects/OpenACCDialect.md
+ConstructAttr		1	markdown/Dialects/OpenACCDialect.md
+DataClauseAttr		1	markdown/Dialects/OpenACCDialect.md
+DataClauseModifierAttr		1	markdown/Dialects/OpenACCDialect.md
+DataDescKindAttr		1	markdown/Dialects/OpenACCDialect.md
+DeviceTypeAttr		1	markdown/Dialects/OpenACCDialect.md
+GPUBlockRedundantAttr		1	markdown/Dialects/OpenACCDialect.md
+GPUParallelDimAttr		1	markdown/Dialects/OpenACCDialect.md
+GPUParallelDimsAttr		1	markdown/Dialects/OpenACCDialect.md
+GangArgTypeAttr		1	markdown/Dialects/OpenACCDialect.md
+LoopLocAttr		1	markdown/Dialects/OpenACCDialect.md
+MapFlagsAttr		1	markdown/Dialects/OpenACCDialect.md
+ParLevelAttr		1	markdown/Dialects/OpenACCDialect.md
+RecipeKindAttr		1	markdown/Dialects/OpenACCDialect.md
+ReductionOperatorAttr		1	markdown/Dialects/OpenACCDialect.md
+VarNameAttr		1	markdown/Dialects/OpenACCDialect.md
+RoutineInfoAttr		1	markdown/Dialects/OpenACCDialect.md
+SpecializedRoutineAttr		1	markdown/Dialects/OpenACCDialect.md
+DataBoundsType		1	markdown/Dialects/OpenACCDialect.md
+DeclareTokenType		1	markdown/Dialects/OpenACCDialect.md
+PrivateType		1	markdown/Dialects/OpenACCDialect.md
+ClauseDefaultValue		1	markdown/Dialects/OpenACCDialect.md
+CombinedConstructsType		1	markdown/Dialects/OpenACCDialect.md
+Construct		1	markdown/Dialects/OpenACCDialect.md
+DataClause		1	markdown/Dialects/OpenACCDialect.md
+DataClauseModifier		1	markdown/Dialects/OpenACCDialect.md
+DataDescKind		1	markdown/Dialects/OpenACCDialect.md
+DeviceType		1	markdown/Dialects/OpenACCDialect.md
+GangArgType		1	markdown/Dialects/OpenACCDialect.md
+LoopParMode		1	markdown/Dialects/OpenACCDialect.md
+MapFlags		1	markdown/Dialects/OpenACCDialect.md
+ParLevel		1	markdown/Dialects/OpenACCDialect.md
+RecipeKind		1	markdown/Dialects/OpenACCDialect.md
+ReductionOperator		1	markdown/Dialects/OpenACCDialect.md
+VariableTypeCategory		1	markdown/Dialects/OpenACCDialect.md
+AccessGroupModifierAttr		1	markdown/Dialects/OpenMPDialect/ODS.md
+AtomicControlAttr		1	markdown/Dialects/OpenMPDialect/ODS.md
+ClauseBindKindAttr		1	markdown/Dialects/OpenMPDialect/ODS.md
+ClauseCancellationConstructTypeAttr		1	markdown/Dialects/OpenMPDialect/ODS.md
+ClauseDependAttr		1	markdown/Dialects/OpenMPDialect/ODS.md
+ClauseMapFlagsAttr		1	markdown/Dialects/OpenMPDialect/ODS.md
+ClauseRequiresAttr		1	markdown/Dialects/OpenMPDialect/ODS.md
+ClauseSeverityAttr		1	markdown/Dialects/OpenMPDialect/ODS.md
+ClauseTaskDependAttr		1	markdown/Dialects/OpenMPDialect/ODS.md
+DataSharingClauseTypeAttr		1	markdown/Dialects/OpenMPDialect/ODS.md
+DeclareTargetAttr		1	markdown/Dialects/OpenMPDialect/ODS.md
+DeclareTargetCaptureClauseAttr		1	markdown/Dialects/OpenMPDialect/ODS.md
+DeclareTargetDeviceTypeAttr		1	markdown/Dialects/OpenMPDialect/ODS.md
+FallbackModifierAttr		1	markdown/Dialects/OpenMPDialect/ODS.md
+FlagsAttr		1	markdown/Dialects/OpenMPDialect/ODS.md
+ClauseGrainsizeTypeAttr		1	markdown/Dialects/OpenMPDialect/ODS.md
+IntegerWrapAroundAttr		1	markdown/Dialects/OpenMPDialect/ODS.md
+InteropTypeAttr		1	markdown/Dialects/OpenMPDialect/ODS.md
+LinearModifierAttr		1	markdown/Dialects/OpenMPDialect/ODS.md
+ClauseMemoryOrderKindAttr		1	markdown/Dialects/OpenMPDialect/ODS.md
+ClauseNumTasksTypeAttr		1	markdown/Dialects/OpenMPDialect/ODS.md
+ClauseNumThreadsTypeAttr		1	markdown/Dialects/OpenMPDialect/ODS.md
+ClauseOrderKindAttr		1	markdown/Dialects/OpenMPDialect/ODS.md
+OrderModifierAttr		1	markdown/Dialects/OpenMPDialect/ODS.md
+ClauseProcBindKindAttr		1	markdown/Dialects/OpenMPDialect/ODS.md
+ReductionModifierAttr		1	markdown/Dialects/OpenMPDialect/ODS.md
+ClauseScheduleKindAttr		1	markdown/Dialects/OpenMPDialect/ODS.md
+ScheduleModifierAttr		1	markdown/Dialects/OpenMPDialect/ODS.md
+TargetExecModeAttr		1	markdown/Dialects/OpenMPDialect/ODS.md
+ThreadsetPolicyAttr		1	markdown/Dialects/OpenMPDialect/ODS.md
+VariableCaptureKindAttr		1	markdown/Dialects/OpenMPDialect/ODS.md
+VersionAttr		1	markdown/Dialects/OpenMPDialect/ODS.md
+CanonicalLoopInfoType		1	markdown/Dialects/OpenMPDialect/ODS.md
+AffinityEntryType		1	markdown/Dialects/OpenMPDialect/ODS.md
+IteratedType		1	markdown/Dialects/OpenMPDialect/ODS.md
+MapBoundsType		1	markdown/Dialects/OpenMPDialect/ODS.md
+AccessGroupModifier		1	markdown/Dialects/OpenMPDialect/ODS.md
+ClauseBindKind		1	markdown/Dialects/OpenMPDialect/ODS.md
+ClauseCancellationConstructType		1	markdown/Dialects/OpenMPDialect/ODS.md
+ClauseDepend		1	markdown/Dialects/OpenMPDialect/ODS.md
+ClauseMapFlags		1	markdown/Dialects/OpenMPDialect/ODS.md
+ClauseRequires		1	markdown/Dialects/OpenMPDialect/ODS.md
+ClauseSeverity		1	markdown/Dialects/OpenMPDialect/ODS.md
+ClauseTaskDepend		1	markdown/Dialects/OpenMPDialect/ODS.md
+DataSharingClauseType		1	markdown/Dialects/OpenMPDialect/ODS.md
+DeclareTargetCaptureClause		1	markdown/Dialects/OpenMPDialect/ODS.md
+DeclareTargetDeviceType		1	markdown/Dialects/OpenMPDialect/ODS.md
+FallbackModifier		1	markdown/Dialects/OpenMPDialect/ODS.md
+ClauseGrainsizeType		1	markdown/Dialects/OpenMPDialect/ODS.md
+InteropType		1	markdown/Dialects/OpenMPDialect/ODS.md
+LinearModifier		1	markdown/Dialects/OpenMPDialect/ODS.md
+ClauseMemoryOrderKind		1	markdown/Dialects/OpenMPDialect/ODS.md
+ClauseNumTasksType		1	markdown/Dialects/OpenMPDialect/ODS.md
+ClauseNumThreadsType		1	markdown/Dialects/OpenMPDialect/ODS.md
+ClauseOrderKind		1	markdown/Dialects/OpenMPDialect/ODS.md
+OrderModifier		1	markdown/Dialects/OpenMPDialect/ODS.md
+ClauseProcBindKind		1	markdown/Dialects/OpenMPDialect/ODS.md
+ReductionModifier		1	markdown/Dialects/OpenMPDialect/ODS.md
+ClauseScheduleKind		1	markdown/Dialects/OpenMPDialect/ODS.md
+ScheduleModifier		1	markdown/Dialects/OpenMPDialect/ODS.md
+TargetExecMode		1	markdown/Dialects/OpenMPDialect/ODS.md
+ThreadsetPolicy		1	markdown/Dialects/OpenMPDialect/ODS.md
+VariableCaptureKind		1	markdown/Dialects/OpenMPDialect/ODS.md
+Adding a Clause		1	markdown/Dialects/OpenMPDialect.md
+Adding an Operation		1	markdown/Dialects/OpenMPDialect.md
+Overriding Clause-Inherited Properties		1	markdown/Dialects/OpenMPDialect.md
+Tablegen Verification Pass		1	markdown/Dialects/OpenMPDialect.md
+Operand Structures		1	markdown/Dialects/OpenMPDialect.md
+Entry Block Argument-Defining Clauses		1	markdown/Dialects/OpenMPDialect.md
+Loop Transformations		1	markdown/Dialects/OpenMPDialect.md
+Combined Constructs		1	markdown/Dialects/OpenMPDialect.md
+Composite Constructs		1	markdown/Dialects/OpenMPDialect.md
+AttributeType		1	markdown/Dialects/PDLOps.md
+RangeType		1	markdown/Dialects/PDLOps.md
+TypeType		1	markdown/Dialects/PDLOps.md
+AddressAttr		1	markdown/Dialects/PtrOps.md
+GenericSpaceAttr		1	markdown/Dialects/PtrOps.md
+NullAttr		1	markdown/Dialects/PtrOps.md
+SpecAttr		1	markdown/Dialects/PtrOps.md
+PtrMetadataType		1	markdown/Dialects/PtrOps.md
+PtrType		1	markdown/Dialects/PtrOps.md
+AtomicBinOp		1	markdown/Dialects/PtrOps.md
+AtomicOrdering		1	markdown/Dialects/PtrOps.md
+PtrAddFlags		1	markdown/Dialects/PtrOps.md
+PtrDiffFlags		1	markdown/Dialects/PtrOps.md
+Per-layer quantization		1	markdown/Dialects/QuantDialect.md
+Per-channel quantization		1	markdown/Dialects/QuantDialect.md
+Sub-channel quantization		1	markdown/Dialects/QuantDialect.md
+QuantileType		1	markdown/Dialects/QuantDialect.md
+BufferOOBModeAttr		1	markdown/Dialects/ROCDLDialect.md
+BufferOOBModeModuleFlagAttr		1	markdown/Dialects/ROCDLDialect.md
+Gfx12AtomicCachePolicyAttr		1	markdown/Dialects/ROCDLDialect.md
+Gfx12CachePolicyAttr		1	markdown/Dialects/ROCDLDialect.md
+Gfx942CachePolicyAttr		1	markdown/Dialects/ROCDLDialect.md
+MFMANegModifierAttr		1	markdown/Dialects/ROCDLDialect.md
+MFMAPermBAttr		1	markdown/Dialects/ROCDLDialect.md
+MatrixFormatAttr		1	markdown/Dialects/ROCDLDialect.md
+PreGfx12CachePolicyAttr		1	markdown/Dialects/ROCDLDialect.md
+SchedGroupMaskAttr		1	markdown/Dialects/ROCDLDialect.md
+TBufferOOBModeModuleFlagAttr		1	markdown/Dialects/ROCDLDialect.md
+ROCDLTargetAttr		1	markdown/Dialects/ROCDLDialect.md
+WMMACModifierAttr		1	markdown/Dialects/ROCDLDialect.md
+WMMAMatrixScaleAttr		1	markdown/Dialects/ROCDLDialect.md
+WMMAMatrixScaleFormatAttr		1	markdown/Dialects/ROCDLDialect.md
+BitVectorAttr		1	markdown/Dialects/SMT.md
+BitVectorType		1	markdown/Dialects/SMT.md
+BoolType		1	markdown/Dialects/SMT.md
+IntType		1	markdown/Dialects/SMT.md
+SMTFuncType		1	markdown/Dialects/SMT.md
+SortType		1	markdown/Dialects/SMT.md
+BVCmpPredicate		1	markdown/Dialects/SMT.md
+IntPredicate		1	markdown/Dialects/SMT.md
+Dialect design principles		1	markdown/Dialects/SPIR-V.md
+Dialect scopes		1	markdown/Dialects/SPIR-V.md
+Module-level operations		1	markdown/Dialects/SPIR-V.md
+Function parameter and return decorations		1	markdown/Dialects/SPIR-V.md
+Array type		1	markdown/Dialects/SPIR-V.md
+Image type		1	markdown/Dialects/SPIR-V.md
+Pointer type		1	markdown/Dialects/SPIR-V.md
+Runtime array type		1	markdown/Dialects/SPIR-V.md
+Sampled image type		1	markdown/Dialects/SPIR-V.md
+Struct type		1	markdown/Dialects/SPIR-V.md
+Ops from extended instruction sets		1	markdown/Dialects/SPIR-V.md
+Selection		1	markdown/Dialects/SPIR-V.md
+Loop		1	markdown/Dialects/SPIR-V.md
+Block argument for Phi		1	markdown/Dialects/SPIR-V.md
+Shader interface attributes		1	markdown/Dialects/SPIR-V.md
+Utility functions for lowering		1	markdown/Dialects/SPIR-V.md
+Current conversions to SPIR-V		1	markdown/Dialects/SPIR-V.md
+The dialect		1	markdown/Dialects/SPIR-V.md
+Op definitions		1	markdown/Dialects/SPIR-V.md
+Dialect conversions		1	markdown/Dialects/SPIR-V.md
+Automated development flow		1	markdown/Dialects/SPIR-V.md
+Add a new op		1	markdown/Dialects/SPIR-V.md
+Add a new enum		1	markdown/Dialects/SPIR-V.md
+Add a new custom type		1	markdown/Dialects/SPIR-V.md
+Add a new conversion		1	markdown/Dialects/SPIR-V.md
+Add a new test		1	markdown/Dialects/SPIR-V.md
+ShapeType		1	markdown/Dialects/ShapeDialect.md
+SizeType		1	markdown/Dialects/ShapeDialect.md
+ValueShapeType		1	markdown/Dialects/ShapeDialect.md
+WitnessType		1	markdown/Dialects/ShapeDialect.md
+Device Groups		1	markdown/Dialects/Shard.md
+In-group Devices		1	markdown/Dialects/Shard.md
+Purity and Execution Model		1	markdown/Dialects/Shard.md
+GridAxesArrayAttr		1	markdown/Dialects/Shard.md
+ReductionKindAttr		1	markdown/Dialects/Shard.md
+CrdTransDirectionKindAttr		1	markdown/Dialects/SparseTensorOps.md
+SparseTensorDimSliceAttr		1	markdown/Dialects/SparseTensorOps.md
+SparseTensorEncodingAttr		1	markdown/Dialects/SparseTensorOps.md
+SparseTensorSortKindAttr		1	markdown/Dialects/SparseTensorOps.md
+StorageSpecifierKindAttr		1	markdown/Dialects/SparseTensorOps.md
+IterSpaceType		1	markdown/Dialects/SparseTensorOps.md
+IteratorType		1	markdown/Dialects/SparseTensorOps.md
+StorageSpecifierType		1	markdown/Dialects/SparseTensorOps.md
+CrdTransDirectionKind		1	markdown/Dialects/SparseTensorOps.md
+SparseTensorSortKind		1	markdown/Dialects/SparseTensorOps.md
+StorageSpecifierKind		1	markdown/Dialects/SparseTensorOps.md
+Complete		1	markdown/Dialects/TOSA.md
+Minimal		1	markdown/Dialects/TOSA.md
+Numerical Precision		1	markdown/Dialects/TOSA.md
+COND_IF and WHILE_LOOP		1	markdown/Dialects/TOSA.md
+Quantization Parameters in Ops vs Tensors		1	markdown/Dialects/TOSA.md
+Operation purity		1	markdown/Dialects/TOSA.md
+AffineMapParamType		1	markdown/Dialects/Transform.md
+AnyOpType		1	markdown/Dialects/Transform.md
+AnyParamType		1	markdown/Dialects/Transform.md
+AnyValueType		1	markdown/Dialects/Transform.md
+NormalizedOpType		1	markdown/Dialects/Transform.md
+ParamType		1	markdown/Dialects/Transform.md
+TypeParamType		1	markdown/Dialects/Transform.md
+PoisonAttr		1	markdown/Dialects/UBOps.md
+LLVM level		1	markdown/Dialects/Vector.md
+Hardware Vector Ops		1	markdown/Dialects/Vector.md
+Virtual Vector Ops		1	markdown/Dialects/Vector.md
+Virtual Vector Rewrite Patterns		1	markdown/Dialects/Vector.md
+Virtual Vector to Hardware Vector Lowering		1	markdown/Dialects/Vector.md
+Transformations Problems Avoided		1	markdown/Dialects/Vector.md
+The Big Out-Of-Scope Piece: Automatic Vectorization		1	markdown/Dialects/Vector.md
+Alternatives For Lowering an n-D Vector Type to LLVM		1	markdown/Dialects/Vector.md
+Constraints Inherited from LLVM (see LangRef)		1	markdown/Dialects/Vector.md
+Nested Aggregate		1	markdown/Dialects/Vector.md
+Flattened 1-D Vector Type		1	markdown/Dialects/Vector.md
+Relationship to LLVM matrix type proposal.		1	markdown/Dialects/Vector.md
+Conclusion		1	markdown/Dialects/Vector.md
+ExternRefType		1	markdown/Dialects/WasmSSAOps.md
+FuncRefType		1	markdown/Dialects/WasmSSAOps.md
+LimitType		1	markdown/Dialects/WasmSSAOps.md
+LocalRefType		1	markdown/Dialects/WasmSSAOps.md
+TableType		1	markdown/Dialects/WasmSSAOps.md
+AMXTileType		1	markdown/Dialects/X86.md
+BlockTensorDescAttr		1	markdown/Dialects/XeGPU.md
+CachePolicyAttr		1	markdown/Dialects/XeGPU.md
+FenceScopeAttr		1	markdown/Dialects/XeGPU.md
+LaneShuffleModeAttr		1	markdown/Dialects/XeGPU.md
+LayoutAttr		1	markdown/Dialects/XeGPU.md
+MemLayoutAttr		1	markdown/Dialects/XeGPU.md
+MemorySpaceAttr		1	markdown/Dialects/XeGPU.md
+RangeAttr		1	markdown/Dialects/XeGPU.md
+SliceAttr		1	markdown/Dialects/XeGPU.md
+MemDescType		1	markdown/Dialects/XeGPU.md
+NbarrierType		1	markdown/Dialects/XeGPU.md
+TensorDescType		1	markdown/Dialects/XeGPU.md
+CachePolicy		1	markdown/Dialects/XeGPU.md
+FenceScope		1	markdown/Dialects/XeGPU.md
+LaneShuffleMode		1	markdown/Dialects/XeGPU.md
+MemorySpace		1	markdown/Dialects/XeGPU.md
+AddrSpaceAttr		1	markdown/Dialects/XeVMDialect.md
+ExtfDstElemTypeAttr		1	markdown/Dialects/XeVMDialect.md
+ExtfSrcElemTypeAttr		1	markdown/Dialects/XeVMDialect.md
+LoadCacheControlAttr		1	markdown/Dialects/XeVMDialect.md
+MMAShapeAttr		1	markdown/Dialects/XeVMDialect.md
+MMATypesAttr		1	markdown/Dialects/XeVMDialect.md
+MemScopeAttr		1	markdown/Dialects/XeVMDialect.md
+StoreCacheControlAttr		1	markdown/Dialects/XeVMDialect.md
+XeVMTargetAttr		1	markdown/Dialects/XeVMDialect.md
+TruncfDstElemTypeAttr		1	markdown/Dialects/XeVMDialect.md
+TruncfSrcElemTypeAttr		1	markdown/Dialects/XeVMDialect.md
+AddrSpace		1	markdown/Dialects/XeVMDialect.md
+ElemType		1	markdown/Dialects/XeVMDialect.md
+ExtfDstElemTypes		1	markdown/Dialects/XeVMDialect.md
+ExtfSrcElemTypes		1	markdown/Dialects/XeVMDialect.md
+LoadCacheControl		1	markdown/Dialects/XeVMDialect.md
+MemScope		1	markdown/Dialects/XeVMDialect.md
+StoreCacheControl		1	markdown/Dialects/XeVMDialect.md
+TruncfDstElemTypes		1	markdown/Dialects/XeVMDialect.md
+TruncfSrcElemTypes		1	markdown/Dialects/XeVMDialect.md
+Dialect Interfaces		1	markdown/Interfaces.md
+Attribute/Operation/Type Interfaces		1	markdown/Interfaces.md
+Common syntax		1	markdown/LangRef.md
+Top level Productions		1	markdown/LangRef.md
+Identifiers and keywords		1	markdown/LangRef.md
+Target specific operations		1	markdown/LangRef.md
+Builtin Operations		1	markdown/LangRef.md
+Definition		1	markdown/LangRef.md
+Value Scoping		1	markdown/LangRef.md
+Control Flow and SSACFG Regions		1	markdown/LangRef.md
+Graph Regions		1	markdown/LangRef.md
+Arguments and Results		1	markdown/LangRef.md
+Type Aliases		1	markdown/LangRef.md
+Dialect Types		1	markdown/LangRef.md
+Builtin Types		1	markdown/LangRef.md
+Token Type		1	markdown/LangRef.md
+Attribute Value Aliases		1	markdown/LangRef.md
+Dialect Attribute Values		1	markdown/LangRef.md
+Builtin Attribute Values		1	markdown/LangRef.md
+IR Versioning		1	markdown/LangRef.md
+Generic Lowering		1	markdown/OwnershipBasedBufferDeallocation.md
+Specialized Lowerings		1	markdown/OwnershipBasedBufferDeallocation.md
+Why build a new language instead of improving TableGen DRR?		1	markdown/PDLL.md
+Why not build a DSL in "X"?		1	markdown/PDLL.md
+Includes		1	markdown/PDLL.md
+Patterns		1	markdown/PDLL.md
+Variables		1	markdown/PDLL.md
+Operation Expression		1	markdown/PDLL.md
+Attribute Expression		1	markdown/PDLL.md
+Type Expression		1	markdown/PDLL.md
+Tuples		1	markdown/PDLL.md
+Rewriters		1	markdown/PDLL.md
+Op-Agnostic Operation Passes		1	markdown/PassManagement.md
+Filtered Operation Pass		1	markdown/PassManagement.md
+Operation Pass: Static Schedule Filtering		1	markdown/PassManagement.md
+Querying Analyses		1	markdown/PassManagement.md
+Preserving Analyses		1	markdown/PassManagement.md
+OpPassManager		1	markdown/PassManagement.md
+Pass Pipeline Registration		1	markdown/PassManagement.md
+Textual Pass Pipeline Specification		1	markdown/PassManagement.md
+Tablegen Specification		1	markdown/PassManagement.md
+Standard Instrumentations		1	markdown/PassManagement.md
+Local Reproducer Generation		1	markdown/PassManagement.md
+NVVM-specific 'gpu' Dialect Passes		1	markdown/Passes.md
+ROCDL-specific 'gpu' Dialect Passes		1	markdown/Passes.md
+SPIR-V-specific 'gpu' Dialect Passes		1	markdown/Passes.md
+XeVM-specific 'gpu' Dialect Passes		1	markdown/Passes.md
+Benefit		1	markdown/PatternRewriter.md
+Root Operation Name (Optional)		1	markdown/PatternRewriter.md
+Application Recursion		1	markdown/PatternRewriter.md
+Debug Names and Labels		1	markdown/PatternRewriter.md
+Construction		1	markdown/PatternRewriter.md
+Dialect Conversion Driver		1	markdown/PatternRewriter.md
+Walk Pattern Rewrite Driver		1	markdown/PatternRewriter.md
+Greedy Pattern Rewrite Driver		1	markdown/PatternRewriter.md
+Pattern Filtering		1	markdown/PatternRewriter.md
+Common Pass Utilities		1	markdown/PatternRewriter.md
+Fixed point values		1	markdown/Quantization.md
+Affine values		1	markdown/Quantization.md
+Relation		1	markdown/Quantization.md
+Converting between real and fixed point or affine		1	markdown/Quantization.md
+Quantized type		1	markdown/Quantization.md
+Quantized type conversion operations		1	markdown/Quantization.md
+Instrumentation and constraint operations		1	markdown/Quantization.md
+General algorithm		1	markdown/Quantization.md
+How is MLIR relevant?		1	markdown/Rationale/MLIRForGraphAlgorithms.md
+What does adoption mean?		1	markdown/Rationale/MLIRForGraphAlgorithms.md
+A Lossless Human Editable Textual Representation		1	markdown/Rationale/MLIRForGraphAlgorithms.md
+A Graph Verification Pass		1	markdown/Rationale/MLIRForGraphAlgorithms.md
+Designed for Testability		1	markdown/Rationale/MLIRForGraphAlgorithms.md
+Infrastructure for Warnings and Error Diagnostics and Location Tracking		1	markdown/Rationale/MLIRForGraphAlgorithms.md
+Shape Information Captured in the IR		1	markdown/Rationale/MLIRForGraphAlgorithms.md
+Unified Graph Rewriting Infrastructure		1	markdown/Rationale/MLIRForGraphAlgorithms.md
+Clarified Semantics for TensorFlow Operations		1	markdown/Rationale/MLIRForGraphAlgorithms.md
+Ergonomics		1	markdown/Rationale/MLIRForGraphAlgorithms.md
+Compile Time Performance and Memory Use		1	markdown/Rationale/MLIRForGraphAlgorithms.md
+Isn't MLIR a big dependency to take on?		1	markdown/Rationale/MLIRForGraphAlgorithms.md
+How does MLIR represent {control flow, concurrency, …} semantics in TensorFlow?		1	markdown/Rationale/MLIRForGraphAlgorithms.md
+Non Goals		1	markdown/Rationale/MLIRForGraphAlgorithms.md
+Loads and stores		1	markdown/Rationale/Rationale.md
+Symbols and types		1	markdown/Rationale/Rationale.md
+Block Arguments vs PHI nodes		1	markdown/Rationale/Rationale.md
+Index type usage and limitations		1	markdown/Rationale/Rationale.md
+Data layout of non-primitive types		1	markdown/Rationale/Rationale.md
+Integer signedness semantics		1	markdown/Rationale/Rationale.md
+Splitting floating point vs integer operations		1	markdown/Rationale/Rationale.md
+Specifying sign in integer comparison operations		1	markdown/Rationale/Rationale.md
+Specifying comparison kind as attribute		1	markdown/Rationale/Rationale.md
+Dialect type extensions		1	markdown/Rationale/Rationale.md
+Tuple types		1	markdown/Rationale/Rationale.md
+Assembly forms		1	markdown/Rationale/Rationale.md
+Non-affine control flow		1	markdown/Rationale/Rationale.md
+Non-affine loop bounds		1	markdown/Rationale/Rationale.md
+Reference 2D Convolution		1	markdown/Rationale/Rationale.md
+Polyhedral code representation alternatives: schedule lists vs schedules trees vs affine loop/if forms		1	markdown/Rationale/Rationale.md
+Affine Relations		1	markdown/Rationale/Rationale.md
+Read/Write/May_Read/May_Write sets for External Functions		1	markdown/Rationale/Rationale.md
+Memref Extensions		1	markdown/Rationale/Rationale.md
+Multithreading the compiler		1	markdown/Rationale/Rationale.md
+Constant folding		1	markdown/Rationale/RationaleGenericDAGRewriter.md
+AST-Level Pattern Matchers		1	markdown/Rationale/RationaleGenericDAGRewriter.md
+"Combiners" and other peephole optimizers		1	markdown/Rationale/RationaleGenericDAGRewriter.md
+LLVM's DAG-to-DAG Instruction Selection Infrastructure		1	markdown/Rationale/RationaleGenericDAGRewriter.md
+Summary		1	markdown/Rationale/RationaleGenericDAGRewriter.md
+Non goals		1	markdown/Rationale/RationaleGenericDAGRewriter.md
+Positioning		1	markdown/Rationale/RationaleLinalgDialect.md
+Inception		1	markdown/Rationale/RationaleLinalgDialect.md
+Evolution		1	markdown/Rationale/RationaleLinalgDialect.md
+Lessons from ONNX		1	markdown/Rationale/RationaleLinalgDialect.md
+Lessons from LIFT		1	markdown/Rationale/RationaleLinalgDialect.md
+Lessons from XLA		1	markdown/Rationale/RationaleLinalgDialect.md
+Lessons from Halide and TVM		1	markdown/Rationale/RationaleLinalgDialect.md
+Lessons from Tensor Comprehensions		1	markdown/Rationale/RationaleLinalgDialect.md
+Lessons from Polyhedral compilers		1	markdown/Rationale/RationaleLinalgDialect.md
+Lessons from the Affine dialect		1	markdown/Rationale/RationaleLinalgDialect.md
+Transformations and Simplicity First		1	markdown/Rationale/RationaleLinalgDialect.md
+Preservation of Information		1	markdown/Rationale/RationaleLinalgDialect.md
+Interchangeability of Forms		1	markdown/Rationale/RationaleLinalgDialect.md
+Composable and Declarative Transformations		1	markdown/Rationale/RationaleLinalgDialect.md
+Suitability for Search and Machine Learning		1	markdown/Rationale/RationaleLinalgDialect.md
+Extensibility and Future-Proofness		1	markdown/Rationale/RationaleLinalgDialect.md
+Algorithms + Data Structures = Programs		1	markdown/Rationale/RationaleLinalgDialect.md
+The Dialect Need not be Closed Under Transformations		1	markdown/Rationale/RationaleLinalgDialect.md
+Summary of Existing Alternatives a Picture		1	markdown/Rationale/RationaleLinalgDialect.md
+Commonality: can express same computation		1	markdown/Rationale/RationaleSimplifiedPolyhedralForm.md
+Commonality: dependence analysis		1	markdown/Rationale/RationaleSimplifiedPolyhedralForm.md
+Commonality: difficulty of determining optimal transformation series		1	markdown/Rationale/RationaleSimplifiedPolyhedralForm.md
+Commonality: compactness of IR		1	markdown/Rationale/RationaleSimplifiedPolyhedralForm.md
+Simplicity of code generation		1	markdown/Rationale/RationaleSimplifiedPolyhedralForm.md
+Ease of transformation		1	markdown/Rationale/RationaleSimplifiedPolyhedralForm.md
+Ease of analysis: Cost models		1	markdown/Rationale/RationaleSimplifiedPolyhedralForm.md
+Cost of code generation		1	markdown/Rationale/RationaleSimplifiedPolyhedralForm.md
+SSA in ML Functions		1	markdown/Rationale/RationaleSimplifiedPolyhedralForm.md
+Lack of redundancy in IR		1	markdown/Rationale/RationaleSimplifiedPolyhedralForm.md
+Suitability to purpose: lowering to machine code		1	markdown/Rationale/RationaleSimplifiedPolyhedralForm.md
+Resource hierarchy and scope		1	markdown/Rationale/SideEffectsAndSpeculation.md
+SIMD compute operation		1	markdown/Rationale/SideEffectsAndSpeculation.md
+Load like operation		1	markdown/Rationale/SideEffectsAndSpeculation.md
+Pervasively duplicated accessors		1	markdown/Rationale/UsageOfConst.md
+Templated accessors		1	markdown/Rationale/UsageOfConst.md
+Const incorrect in practice		1	markdown/Rationale/UsageOfConst.md
+Context Locking Without Parallel Execution		1	markdown/ReleaseNotes.md
+GPU/AMDGPU Changes		1	markdown/ReleaseNotes.md
+Target-Independent GPU Transforms		1	markdown/ReleaseNotes.md
+GPU/NVVM Changes		1	markdown/ReleaseNotes.md
+Bytecode		1	markdown/ReleaseNotes.md
+Others		1	markdown/ReleaseNotes.md
+RemarkEngine		1	markdown/Remarks.md
+MLIRRemarkStreamerBase		1	markdown/Remarks.md
+Passed		1	markdown/Remarks.md
+Missed		1	markdown/Remarks.md
+Failure		1	markdown/Remarks.md
+Analysis		1	markdown/Remarks.md
+Configuring Remark Options		1	markdown/Remarks.md
+Basic Example		1	markdown/Remarks.md
+String Shorthand		1	markdown/Remarks.md
+Custom Metrics		1	markdown/Remarks.md
+RemarkEmittingPolicyAll		1	markdown/Remarks.md
+RemarkEmittingPolicyFinal		1	markdown/Remarks.md
+Option 1: LLVM Remark Streamer (YAML or Bitstream)		1	markdown/Remarks.md
+Option 2: Diagnostic Engine (No Streamer)		1	markdown/Remarks.md
+Option 3: Custom Streamer		1	markdown/Remarks.md
+Scalar types		1	markdown/SPIRVToLLVMDialectConversion.md
+Vector types		1	markdown/SPIRVToLLVMDialectConversion.md
+Pointer types		1	markdown/SPIRVToLLVMDialectConversion.md
+Array types		1	markdown/SPIRVToLLVMDialectConversion.md
+Struct types		1	markdown/SPIRVToLLVMDialectConversion.md
+Not implemented types		1	markdown/SPIRVToLLVMDialectConversion.md
+Arithmetic ops		1	markdown/SPIRVToLLVMDialectConversion.md
+Bitwise ops		1	markdown/SPIRVToLLVMDialectConversion.md
+Cast ops		1	markdown/SPIRVToLLVMDialectConversion.md
+Comparison ops		1	markdown/SPIRVToLLVMDialectConversion.md
+Composite ops		1	markdown/SPIRVToLLVMDialectConversion.md
+Logical ops		1	markdown/SPIRVToLLVMDialectConversion.md
+Memory ops		1	markdown/SPIRVToLLVMDialectConversion.md
+Miscellaneous ops with direct conversions		1	markdown/SPIRVToLLVMDialectConversion.md
+Shift ops		1	markdown/SPIRVToLLVMDialectConversion.md
+Not implemented ops		1	markdown/SPIRVToLLVMDialectConversion.md
+Branch ops		1	markdown/SPIRVToLLVMDialectConversion.md
+Direct conversions		1	markdown/SPIRVToLLVMDialectConversion.md
+Special cases		1	markdown/SPIRVToLLVMDialectConversion.md
+Pipeline		1	markdown/SPIRVToLLVMDialectConversion.md
+Walk-through		1	markdown/SPIRVToLLVMDialectConversion.md
+Requirements		1	markdown/ShapeInference.md
+Possibly Asked Questions		1	markdown/ShapeInference.md
+Open points		1	markdown/ShapeInference.md
+Defining or declaring a Symbol		1	markdown/SymbolsAndSymbolTables.md
+Referencing a Symbol		1	markdown/SymbolsAndSymbolTables.md
+Manipulating a Symbol		1	markdown/SymbolsAndSymbolTables.md
+Conversion of Built-in Types		1	markdown/TargetLLVMIR.md
+Conversion of LLVM Container Types with Non-Compatible Element Types		1	markdown/TargetLLVMIR.md
+Calling Conventions		1	markdown/TargetLLVMIR.md
+Generic alloction and deallocation functions		1	markdown/TargetLLVMIR.md
+C-compatible wrapper emission		1	markdown/TargetLLVMIR.md
+Address Computation		1	markdown/TargetLLVMIR.md
+Utility Classes		1	markdown/TargetLLVMIR.md
+Non-forwarding Semantics		1	markdown/Tokens.md
+Supporting custom dialects		1	markdown/Tools/MLIRLSP.md
+Communication and Transport		1	markdown/Tools/MLIRLSP.md
+Language Server Protocol		1	markdown/Tools/MLIRLSP.md
+Language-Specific Server		1	markdown/Tools/MLIRLSP.md
+Visual Studio Code		1	markdown/Tools/MLIRLSP.md
+Example MLIR input		1	markdown/Tools/mlir-reduce.md
+Write the script for testing interestingness		1	markdown/Tools/mlir-reduce.md
+Running the example		1	markdown/Tools/mlir-reduce.md
+Operation elimination		1	markdown/Tools/mlir-reduce.md
+Rewrite patterns into simpler forms		1	markdown/Tools/mlir-reduce.md
+Reduce with built-in optimization passes		1	markdown/Tools/mlir-reduce.md
+Extra Declarations and Definitions		1	markdown/Traits.md
+Parametric Traits		1	markdown/Traits.md
+Attaching Operation Traits in ODS		1	markdown/Traits.md
+AffineScope		1	markdown/Traits.md
+AutomaticAllocationScope		1	markdown/Traits.md
+Broadcastable		1	markdown/Traits.md
+Commutative		1	markdown/Traits.md
+ElementwiseMappable		1	markdown/Traits.md
+HasParent		1	markdown/Traits.md
+HasAncestor		1	markdown/Traits.md
+IsolatedFromAbove		1	markdown/Traits.md
+MemRefsNormalizable		1	markdown/Traits.md
+Single Block Region		1	markdown/Traits.md
+Single Block with Implicit Terminator		1	markdown/Traits.md
+SymbolTable		1	markdown/Traits.md
+Terminator		1	markdown/Traits.md
+TokenProducerTrait		1	markdown/Traits.md
+TokenConsumerTrait		1	markdown/Traits.md
+TableGen Targets		1	markdown/Tutorials/CreatingADialect.md
+Library Targets		1	markdown/Tutorials/CreatingADialect.md
+Lattices		1	markdown/Tutorials/DataFlowAnalysis.md
+ForwardDataflowAnalysis Driver		1	markdown/Tutorials/DataFlowAnalysis.md
+TableGen patterns		1	markdown/Tutorials/QuickstartRewrites.md
+Register the pattern		1	markdown/Tutorials/QuickstartRewrites.md
+Opaque API		1	markdown/Tutorials/Toy/Ch-2.md
+Op vs Operation: Using MLIR Operations		1	markdown/Tutorials/Toy/Ch-2.md
+Using the Operation Definition Specification (ODS) Framework		1	markdown/Tutorials/Toy/Ch-2.md
+Inlining		1	markdown/Tutorials/Toy/Ch-4.md
+Intraprocedural Shape Inference		1	markdown/Tutorials/Toy/Ch-4.md
+Design Considerations With Partial Lowering		1	markdown/Tutorials/Toy/Ch-5.md
+Full Lowering		1	markdown/Tutorials/Toy/Ch-6.md
+Emitting LLVM IR		1	markdown/Tutorials/Toy/Ch-6.md
+Setting up a JIT		1	markdown/Tutorials/Toy/Ch-6.md
+Defining the Type Class		1	markdown/Tutorials/Toy/Ch-7.md
+Exposing to ODS		1	markdown/Tutorials/Toy/Ch-7.md
+Walkers		1	markdown/Tutorials/UnderstandingTheIRStructure.md

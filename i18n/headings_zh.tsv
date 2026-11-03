@@ -1,0 +1,959 @@
+# Bilingual heading table for the printable build.
+# Format: <english heading><TAB><Chinese translation>
+# - matching is exact after normalising quotes/whitespace (curly -> straight)
+# - headings containing code identifiers (`foo`) are never translated
+# - anything missing here simply stays English-only
+#
+# ---- level 1: document titles (chapter level) ----
+'ArmSME' Dialect	ArmSME 方言
+'acc' Dialect	acc 方言（OpenACC）
+'affine' Dialect	affine 方言（仿射）
+'amdgpu' Dialect	amdgpu 方言
+'arith' Dialect	arith 方言（算术）
+'arm_neon' Dialect	arm_neon 方言
+'arm_sve' Dialect	arm_sve 方言
+'async' Dialect	async 方言（异步）
+'bufferization' Dialect	bufferization 方言（缓冲化）
+'cf' Dialect	cf 方言（控制流）
+'complex' Dialect	complex 方言（复数）
+'dlti' Dialect	dlti 方言（数据布局与目标信息）
+'emitc' Dialect	emitc 方言（生成 C/C++）
+'func' Dialect	func 方言（函数）
+'gpu' Dialect	gpu 方言
+'index' Dialect	index 方言（索引）
+'irdl' Dialect	irdl 方言
+'linalg' Dialect	linalg 方言（线性代数）
+'llvm' Dialect	llvm 方言
+'math' Dialect	math 方言（数学）
+'memref' Dialect	memref 方言（内存引用）
+'ml_program' Dialect	ml_program 方言
+'mpi' Dialect	mpi 方言
+'nvgpu' Dialect	nvgpu 方言
+'nvvm' Dialect	nvvm 方言
+'omp' Dialect	omp 方言（OpenMP）
+'pdl' Dialect	pdl 方言（模式描述语言）
+'pdl_interp' Dialect	pdl_interp 方言（PDL 解释执行）
+'ptr' Dialect	ptr 方言（指针）
+'quant' Dialect	quant 方言（量化）
+'rocdl' Dialect	rocdl 方言
+'scf' Dialect	scf 方言（结构化控制流）
+'shape' Dialect	shape 方言（形状）
+'shard' Dialect	shard 方言（分片）
+'smt' Dialect	smt 方言
+'sparse_tensor' Dialect	sparse_tensor 方言（稀疏张量）
+'tensor' Dialect	tensor 方言（张量）
+'ub' Dialect	ub 方言（未定义行为）
+'vcix' Dialect	vcix 方言
+'vector' Dialect	vector 方言（向量）
+'wasmssa' Dialect	wasmssa 方言
+'x86' Dialect	x86 方言
+'xegpu' Dialect	xegpu 方言
+'xevm' Dialect	xevm 方言
+Action: Tracing and Debugging MLIR-based Compilers	Action：基于 MLIR 的编译器追踪与调试
+AttributeInterface definitions	AttributeInterface 定义（属性接口）
+Bindings	绑定（Bindings）
+Bufferization	缓冲化（Bufferization）
+Builtin Dialect	内置方言（Builtin）
+Chapter 0: A Primer on “Structured” Linalg Operations	第 0 章：“结构化” Linalg 操作入门
+Chapter 1: Combining Existing Transformations	第 1 章：组合已有的变换
+Chapter 1: Toy Language and AST	第 1 章：Toy 语言与 AST
+Chapter 2: Adding a Simple New Transformation Operation	第 2 章：添加一个简单的新变换操作
+Chapter 2: Emitting Basic MLIR	第 2 章：生成基本 MLIR
+Chapter 3: High-level Language-Specific Analysis and Transformation	第 3 章：语言特定的高层分析与变换
+Chapter 3: More than Simple Transform Operations	第 3 章：不止于简单的变换操作
+Chapter 4: Enabling Generic Transformation with Interfaces	第 4 章：用接口实现通用变换
+Chapter 4: Matching Payload with Transform Operations	第 4 章：用变换操作匹配目标载荷
+Chapter 5: Partial Lowering to Lower-Level Dialects for Optimization	第 5 章：部分下移到低层方言以优化
+Chapter 6: Lowering to LLVM and CodeGeneration	第 6 章：下移到 LLVM 与代码生成
+Chapter 7: Adding a Composite Type to Toy	第 7 章：为 Toy 添加复合类型
+Chapter H: Reproducing Halide Schedule	第 H 章：复现 Halide 调度
+Code Documentation	代码文档总览（Code Documentation）
+Constraints	约束（Constraints）
+Creating a Dialect	创建方言
+Customizing Assembly Behavior	自定义汇编格式
+Data Layout Modeling	数据布局建模
+Defining Dialect Attributes and Types	定义方言属性与类型
+Defining Dialects	定义方言
+Design guidelines	设计指南
+Diagnostic Infrastructure	诊断基础设施
+Dialect Conversion	方言转换
+Dialect Conversions	方言转换（总览）
+Dialect inclusion criteria and guidelines	方言收录标准与指南
+Dialects	方言索引（Dialects）
+Documentation guidelines	文档编写指南
+External tutorials	外部教程
+General documentation (What does this op do?)	通用文档（这个操作做什么？）
+Generic DAG Rewriter Infrastructure Rationale	通用 DAG 重写基础设施的设计理由
+Interfaces	接口（Interfaces）
+LLVM IR Target	LLVM IR 目标
+Linalg Dialect Rationale: The Case For Compiler-Friendly Custom Operations	Linalg 方言设计理由：对编译器友好的自定义操作
+Linalg OpDSL	Linalg OpDSL（操作 DSL）
+MLIR : Language Server Protocol	MLIR：语言服务器协议（LSP）
+MLIR Bytecode Format	MLIR 字节码格式
+MLIR C API	MLIR C API
+MLIR Language Reference	MLIR 语言参考
+MLIR Python Bindings	MLIR Python 绑定
+MLIR Rationale	MLIR 设计理由综述
+MLIR Reduce	MLIR Reduce（用例归约）
+MLIR Release Notes	MLIR 发行说明
+MLIR: Incremental Application to Graph Algorithms in ML Frameworks	MLIR：在 ML 框架中渐进式引入图算法
+MLIR: The case for a simplified polyhedral form	MLIR：简化多面体形式的论证
+ODS Documentation	ODS 文档（操作定义规范）
+OpInterface definitions	OpInterface 定义（操作接口）
+Operation Canonicalization	操作规范化（Canonicalization）
+Operation Definition Specification (ODS)	操作定义规范（ODS）
+Ownership-based Buffer Deallocation	基于所有权的缓冲区释放
+PDLL - PDL Language	PDLL——PDL 语言
+Pass Infrastructure	Pass 基础设施
+Passes	Pass 列表
+Pattern Rewriting : Generic DAG-to-DAG Rewriting	模式重写：通用 DAG 到 DAG 重写
+Pattern Search	模式搜索
+Quantization	量化（Quantization）
+Quickstart tutorial to adding MLIR graph rewrite	快速上手：为 MLIR 添加图重写
+Rationale	设计理由（Rationale）
+Reconsidering const in MLIR	重新审视 MLIR 中的 const
+Remark Infrastructure	Remark 基础设施
+SPIR-V Dialect	SPIR-V 方言
+SPIR-V Dialect to LLVM Dialect conversion manual	SPIR-V 方言到 LLVM 方言转换手册
+Shape Inference	形状推导
+Side Effects & Speculation	副作用与推测执行
+Symbols and Symbol Tables	符号与符号表
+Table-driven Declarative Rewrite Rule (DRR)	表驱动声明式重写规则（DRR）
+Tensor Operator Set Architecture (TOSA) Dialect	张量算子集架构（TOSA）方言
+The Broadcastable Trait	Broadcastable（可广播）Trait
+Tokens	Token（记号）
+Tools	工具（Tools）
+Toy Tutorial	Toy 教程
+Traits	Trait（特征）
+Transform Dialect	Transform 方言（变换方言）
+Transform Dialect Tutorial	Transform 方言教程
+Tutorials	教程（Tutorials）
+Understanding the IR Structure	理解 IR 结构
+Usage of 'const' in MLIR, for core IR types	MLIR 核心 IR 类型中 const 的用法
+Using mlir-opt	使用 mlir-opt
+What goes here?	哪些内容该放在这里？
+Writing DataFlow Analyses in MLIR	在 MLIR 中编写数据流分析
+mlir-rewrite	mlir-rewrite（MLIR 源码重写工具）
+MathTransformOps	Math 变换操作（MathTransformOps）
+XeGPUTransformOps	XeGPU 变换操作（XeGPUTransformOps）
+#
+# ---- level 2: section headings ----
+Operations	操作（Operations）
+Attributes	属性定义（Attributes）
+Types	类型定义（Types）
+Enums	枚举（Enums）
+Overview	概览
+Rationale	设计理由
+Introduction	简介
+Examples	示例
+Testing	测试
+Appendix: Autogenerated Documentation	附录：自动生成的文档
+Design	设计
+Benefits	优点
+Debugging Tips	调试技巧
+LangRef Refresher	语言参考速览
+Motivation	动机
+Conversion Target	转换目标
+Type Conversion	类型转换
+Debugging	调试
+Operations for LLVM IR Intrinsics	LLVM IR 内建（intrinsic）对应操作
+Operation definitions	操作定义
+Introduction and Motivation	简介与动机
+CMake best practices	CMake 最佳实践
+Complete Toy Example	完整的 Toy 示例
+Wrapping a Transformation in an Action	用 Action 封装一次变换
+Intercepting Actions	拦截 Action
+MLIR-provided Handlers	MLIR 内置 Handler
+Building	构建
+User-level API	用户级 API
+Style	代码风格
+Integration with ODS	与 ODS 集成
+Providing Python bindings for a dialect	为方言提供 Python 绑定
+Extending MLIR in Python	用 Python 扩展 MLIR
+Free-threading (No-GIL) support	自由线程（无 GIL）支持
+Bindings Docs	绑定文档
+Deprecated Passes	已废弃的 Pass
+What is One-Shot Bufferize?	什么是 One-Shot Bufferize？
+Goals of Bufferization	缓冲化的目标
+Destination-Passing Style	Destination-Passing 风格
+Tensor / Buffer Boundary	Tensor 与 Buffer 的边界
+Using One-Shot Bufferize	使用 One-Shot Bufferize
+Memory Layouts	内存布局
+Extending One-Shot Bufferize	扩展 One-Shot Bufferize
+Debugging Buffer Copies	调试缓冲区拷贝
+Operation Properties and Back-Deployment	操作属性与向后部署
+Magic Number	魔数
+Format Overview	格式总览
+MLIR Encoding	MLIR 编码
+Common Patterns	通用模式
+Extending the API	扩展 API
+General Design	总体设计
+What is the Canonical Form?	什么是规范形式？
+Globally Applied Rules	全局适用的规则
+Defining Canonicalizations	定义规范化规则
+Usage	用法
+Custom Implementations	自定义实现
+Default Implementation	默认实现
+Strengths and Limitations	优点与局限
+Rule Definition	规则定义
+Rewrite directives	重写指令
+Generating Aliases	生成别名
+Suggesting SSA/Block Names	建议 SSA 值 / Block 名称
+Defining Default Dialect	定义默认方言
+Attributes and Types	属性与类型
+Attribute / Type Constraints	属性 / 类型约束
+TableGen Syntax	TableGen 语法
+Operation Definition	操作定义
+Constraints	约束
+Attribute Definition	属性定义
+Enum definition	枚举定义
+Appendix	附录
+Defining a Dialect	定义一个方言
+Defining an Extensible dialect	定义可扩展方言
+Defining Dialects Docs	“定义方言”文档
+Source Locations	源位置
+Diagnostic Engine	诊断引擎
+Diagnostic	诊断
+InFlight Diagnostic	进行中的诊断（InFlight Diagnostic）
+Diagnostic Configuration Options	诊断配置选项
+Common Diagnostic Handlers	常用诊断 Handler
+Modes of Conversion	转换模式
+Rewrite Pattern Specification	重写模式规范
+Polyhedral Structures	多面体结构
+Location Attributes	位置属性
+DistinctAttribute	DistinctAttribute（唯一属性）
+Type Interfaces	类型接口
+GPU address spaces	GPU 地址空间
+Memory attribution	内存归属标注
+GPU Compilation	GPU 编译
+Basics	基础
+Principles	原则
+Constraints and combinators	约束与组合子
+Motivating use cases	动机用例
+Dependency on LLVM IR	对 LLVM IR 的依赖
+Module Structure	模块结构
+Basic usage	基本用法
+Language Guide	语言指南
+Parameters	参数
+Index Attributes	索引属性
+Shape-Only Tensors	仅形状张量
+Assignments	赋值
+Function Attributes	函数属性
+Pointwise Computations	逐点计算
+Set of Key Transformations	关键变换集合
+High-Level Description of Linalg Ops	Linalg 操作的高层描述
+Open Issues and Design Alternatives	未决问题与备选设计
+'linalg' Dialect Docs	linalg 方言文档
+Scope and Capabilities	范围与能力
+Placement in the Lowering Pipeline	在下移流程中的位置
+Target Configuration and Serialization	目标配置与序列化
+Inline PTX	内联 PTX
+Memory Spaces	内存空间
+MBarrier objects	MBarrier 对象
+Non-Goals	非目标
+Registration and library dependencies	注册与库依赖
+Dialect Design Goals	方言设计目标
+Operation Categories	操作分类
+OpenACC Transforms and Analyses	OpenACC 变换与分析
+Operations TOC	操作目录
+Operation Naming Conventions	操作命名约定
+Clause-Based Operation Definition	基于子句的操作定义
+Loop-Associated Directives	与循环关联的制导指令
+Compound Construct Representation	复合结构的表示
+Host-Evaluated Clauses in Target Regions	目标区域中由主机求值的子句
+'omp' Dialect Docs	omp 方言文档
+Per-axis quantization integrity	逐轴量化完整性
+Sub-channel quantization integrity	子通道量化完整性
+Type constraints	类型约束
+Design Guidelines	设计指南
+Conventions	约定
+Module	模块
+Decorations	修饰
+Function	函数
+Control Flow	控制流
+Version, extensions, capabilities	版本、扩展与能力
+Target environment	目标环境
+Shader interface (ABI)	着色器接口（ABI）
+Serialization and deserialization	序列化与反序列化
+Conversions	转换
+Code organization	代码组织
+Contribution	贡献指南
+Different stages of lowering Shape dialect	Shape 方言下移的各阶段
+Collective Communication Operations	集合通信操作
+TOSA and Tensor Level Expressiveness	TOSA 与张量层表达能力
+TOSA Operator Rationale	TOSA 算子设计理由
+Using TOSA In A Compiler	在编译器中使用 TOSA
+Dialect Extension Mechanism	方言扩展机制
+Side Effects	副作用
+Execution Model	执行模型
+Handle Invalidation	Handle 失效
+Intended Use and Integrations	预期用途与集成
+Effects on the Infrastructure	对基础设施的影响
+Type Definitions	类型定义
+Core Operations	核心操作
+Tune Extension Operations	Tune 扩展操作
+SMT Extension Operations	SMT 扩展操作
+Affine Transform Operations	仿射变换操作
+ARM Neon Transform Operations	ARM Neon 变换操作
+ARM SVE Transform Operations	ARM SVE 变换操作
+Bufferization Transform Operations	缓冲化变换操作
+Debug Transform Operations	调试变换操作
+DLTI Transform Operations	DLTI 变换操作
+IRDL (extension) Transform Operations	IRDL（扩展）变换操作
+Func Transform Operations	Func 变换操作
+GPU Transform Operations	GPU 变换操作
+Loop (extension) Transform Operations	Loop（扩展）变换操作
+Loop (SCF) Transform Operations	Loop（SCF）变换操作
+MemRef Transform Operations	MemRef 变换操作
+PDL (extension) Transform Operations	PDL（扩展）变换操作
+Structured (Linalg) Match Operations	结构化（Linalg）匹配操作
+Structured (Linalg) Transform Operations	结构化（Linalg）变换操作
+Tensor Transform Operations	Tensor 变换操作
+Vector Transform Operations	Vector 变换操作
+Positioning in the Codegen Infrastructure	在代码生成基础设施中的定位
+Components of a Generic Retargetable Vector-Level Dialect	通用可重定向向量级方言的组成
+Short Description of the Existing Infrastructure	现有基础设施简述
+Bikeshed Naming Discussion	命名之辩（Bikeshed）
+0D Vectors	0 维向量
+LLVM Lowering Tradeoffs	下移到 LLVM 的取舍
+Dialects Docs	方言文档
+High-Level Structure	高层结构
+Notation	记号约定
+Blocks	Block（基本块）
+Regions	Region（区域）
+Type System	类型系统
+Properties	属性（Properties）
+Function boundary ABI	函数边界 ABI
+Supported interfaces	支持的接口
+Limitations	限制
+Example	示例
+Buffer Deallocation Simplification Pass	缓冲区释放化简 Pass
+Lower Deallocations Pass	下移释放操作 Pass
+Language Specification	语言规范
+Operation Pass	操作 Pass
+Analysis Management	分析管理
+Pass Failure	Pass 失败
+Pass Manager	Pass 管理器
+Dynamic Pass Pipelines	动态 Pass 流水线
+Instance Specific Pass Options	实例级 Pass 选项
+Pass Statistics	Pass 统计
+Pass Registration	Pass 注册
+Declarative Pass Specification	声明式 Pass 规范
+Pass Instrumentation	Pass 插桩
+Crash and Failure Reproduction	崩溃与失败复现
+General Transformation Passes	通用变换 Pass
+Bufferization Passes	缓冲化 Pass
+Conversion Passes	转换 Pass
+Reducer Passes	归约（Reducer）Pass
+TOSA Dialect Passes	TOSA 方言 Pass
+XeGPU Dialect Passes	XeGPU 方言 Pass
+Defining Patterns	定义模式
+Pattern Rewriter	模式重写器
+Pattern Application	模式应用
+Common Pattern Drivers	常用模式驱动
+Uniform quantization	均匀量化
+Usage within MLIR	MLIR 内部的用法
+Quantization Dialect	量化方言
+Integration with simulated quantization at training time	与训练期模拟量化的集成
+TFLite native quantization	TFLite 原生量化
+What benefit does MLIR provide?	MLIR 带来了什么好处？
+Common Questions and Concerns	常见问题与疑虑
+Abstract	摘要
+Design Decisions	设计决策
+Design alternatives and extensions	备选设计与扩展
+Related Work	相关工作
+Goals	目标
+Prior Art	已有工作
+Core Guiding Principles	核心指导原则
+Key Observations	关键观察
+General goals of an IR, and goals of mlfunc’s specifically	IR 的总体目标与 mlfunc 的具体目标
+Context: Traditional Polyhedral Form	背景：传统多面体形式
+Proposal: Simplified Polyhedral Form	提案：简化多面体形式
+Evaluation	评估
+Third Alternative: two different levels of mlfunc	第三种方案：两级 mlfunc
+Categorization	分类
+Modeling	建模
+Background: The LLVM Const Model	背景：LLVM 的 const 模型
+Advantages of Const-correctness in MLIR	MLIR 中 const 正确性的好处
+Costs of Const-correctness in MLIR	MLIR 中 const 正确性的代价
+Rationale Docs	设计理由文档
+Architecture	架构
+Remark Categories	Remark 分类
+Emitting Remarks	发出 Remark
+Metrics and Helpers	度量与辅助工具
+Emitting Policies	发出策略
+Querying Enabled Remarks	查询已启用的 Remark
+Enabling Remarks	启用 Remark
+Importing LLVM Remarks	导入 LLVM Remark
+Operation Conversion	操作转换
+Control flow conversion	控制流转换
+Decorations conversion	修饰转换
+GLSL extended instruction set	GLSL 扩展指令集
+Function conversion and related ops	函数转换及相关操作
+Module ops	模块操作
+SPIR-V CPU Runner Tests	SPIR-V CPU Runner 测试
+Shape functions	形状函数
+Shape dialect	Shape 方言
+WIP/Future considerations	进行中与未来考虑
+Symbol	符号
+Symbol Table	符号表
+Symbol Visibility	符号可见性
+Conversion to the LLVM Dialect	转换为 LLVM 方言
+Translation to LLVM IR	翻译为 LLVM IR
+Translation from LLVM IR	从 LLVM IR 翻译
+Design Rationale	设计理由
+ODS Integration	ODS 集成
+MLIR LSP Language Server : mlir-lsp-server	MLIR LSP 语言服务器：mlir-lsp-server
+PDLL LSP Language Server : mlir-pdll-lsp-server	PDLL LSP 语言服务器：mlir-pdll-lsp-server
+TableGen LSP Language Server : tblgen-lsp-server	TableGen LSP 语言服务器：tblgen-lsp-server
+Language Server Design	语言服务器设计
+Editor Plugins	编辑器插件
+How to Use it	如何使用
+Available reduction strategies	可用的归约策略
+Build a custom mlir-reduce	构建自定义 mlir-reduce
+Future works	后续工作
+Tools Docs	工具文档
+Description	说明
+Dimension inference	维度推导
+Shape inference	形状推导
+Verification	校验
+Defining a Trait	定义 Trait
+Attaching a Trait	挂接 Trait
+Using a Trait	使用 Trait
+Operation Traits List	操作 Trait 清单
+Traits Docs	Trait 文档
+Forward Dataflow Analysis	前向数据流分析
+Upstream tutorial	上游教程
+Third-party tutorials	第三方教程
+Table of contents	目录
+Running a pass	运行一个 Pass
+Running a pass with options	带选项运行 Pass
+Building a pass pipeline on the command line	在命令行构建 Pass 流水线
+Useful CLI flags	常用命令行参数
+Further reading	延伸阅读
+Adding operation	添加操作
+Adding patterns	添加模式
+Adding optimization pass	添加优化 Pass
+The Language	这门语言
+The AST	AST（抽象语法树）
+Introduction: Multi-Level Intermediate Representation	引言：多层中间表示
+Interfacing with MLIR	与 MLIR 对接
+Defining a Toy Dialect	定义 Toy 方言
+Defining Toy Operations	定义 Toy 操作
+Optimize Transpose using C++ style pattern-match and rewrite	用 C++ 风格的模式匹配与重写优化 transpose
+Optimize Reshapes using DRR	用 DRR 优化 reshape
+Background: Grappling with an Extensible IR	背景：应对可扩展的 IR
+Shape Inference: Preparing for Code Generation	形状推导：为代码生成做准备
+Conversion Patterns	转换模式
+Partial Lowering	部分下移
+Taking Advantage of Affine Optimization	利用仿射优化
+Lowering to LLVM	下移到 LLVM
+CodeGen: Getting Out of MLIR	代码生成：走出 MLIR
+Toy Tutorial Docs	Toy 教程文档
+Traversing the IR Nesting	遍历 IR 嵌套结构
+Other IR Traversal Methods	其他 IR 遍历方法
+Traversing the def-use chains	遍历 def-use 链
+Uniform Elementwise Extension	统一的逐元素扩展
+Reduction	归约
+Contraction	收缩
+Generic Operation on Memory	内存上的通用操作
+“Loop” Fusion	“循环”融合
+Generic Operation on Tensors	张量上的通用操作
+Tiling and Loop Materialization	Tiling（分块）与循环实体化
+Producer/Consumer Fusion and Rematerialization	生产者/消费者融合与重实体化
+Shorthand “Named” Forms of Linalg Ops	Linalg 操作的“具名”简写形式
+Top-Level Sequence Operation	顶层序列操作
+Failure Propagation	失败传播
+Transform Dialect Interpreter	Transform 方言解释器
+Specifying Transformations	指定变换
+Handle Invalidation and Expensive Checks Mode	Handle 失效与昂贵检查模式
+Chaining Transformations with Handles	用 Handle 串联变换
+More Handle Invalidation	更多 Handle 失效情形
+Tracking IR Modifications	跟踪 IR 修改
+Setting Up to Add New Transformations	搭好环境，准备添加新变换
+Defining a Transform Operation	定义变换操作
+Registration and Usage	注册与用法
+Type Constraints and ApplyEach Trait	类型约束与 ApplyEach Trait
+Defining a Transform Type	定义 Transform 类型
+Operand Consumption	操作数消耗
+Memory Effects Traits	内存效果 Trait
+Simple match	简单匹配
+Matching Chains of Operations	匹配操作链
+Defining Match Operations	定义匹配操作
+Matchers for Inferred Features	针对推导特征的匹配器
+Channeled Convolution	通道化卷积
+Mapping Halide Scheduling Primitives to Linalg Structured Transforms	把 Halide 调度原语映射为 Linalg 结构化变换
+Recreating the Loop Structure	重建循环结构
+Explicit Loop Unrolling	显式循环展开
+Vectorization	向量化
+Lowering to LLVM and The Bufferization Hurdle	下移到 LLVM 与缓冲化这道坎
+Multi-Dimensional Vectors to the Rescue	多维向量救场
+Transform Dialect Tutorial Docs	Transform 方言教程文档
+Tutorials Docs	教程文档
+Code Documentation Docs	代码文档总览
+
+
+# ---- level 3: h3 headings contributed by agents ----
+Methods:	方法
+Extra declarations	额外声明
+Initialization	初始化
+Features	特性
+Scope	作用域
+Class Name	类名
+Documentation	文档
+Parsing and Printing	解析与打印
+Dependent Dialects	依赖方言
+Strict Property Assembly Formats	严格属性汇编格式
+Type Converter	类型转换器
+Discussion	讨论
+Properties: beyond attributes	超越属性的 Properties
+Compilation Database	编译数据库
+Debug Counters	调试计数器
+Pre-requisites	先决条件
+CMake variables	CMake 变量
+Recommended development practices	推荐的开发实践
+Use cases	使用场景
+Composable modules	可组合模块
+Submodules	子模块
+Loader	加载器
+Use the C-API	使用 C API
+Ownership in the Core IR	核心 IR 中的所有权
+Optionality and argument ordering in the Core IR	核心 IR 中的可选性与参数顺序
+Context Management	上下文管理
+Inspecting IR Objects	检查 IR 对象
+Creating IR Objects	创建 IR 对象
+Properties vs get*() methods	Properties 与 get*() 方法
+**repr** methods	**repr** 方法
+CamelCase vs snake_case	CamelCase 与 snake_case
+Prefer pseudo-containers	优先使用伪容器
+Provide one stop helpers for common things	为常见任务提供一站式辅助函数
+Sample FileCheck test	FileCheck 测试示例
+Extending the search path for wrapper modules	扩展包装模块的搜索路径
+Wrapper module code organization	包装模块的代码组织
+Other functionality	其他功能
+Rewrite Patterns	重写模式
+Primitives	基本元素
+Sections	区段
+Top Level Structure	顶层结构
+String Section	字符串区段
+Dialect Section	方言区段
+Attribute/Type Sections	属性/类型区段
+Resource Section	资源区段
+IR Section	IR 区段
+Object Model	对象模型
+Naming Convention and Ownership Model	命名约定与所有权模型
+Nullity	空值性
+Type Hierarchies	类型层次结构
+Auxiliary Types	辅助类型
+Printing	打印
+Indexed Components	带索引的组件
+Iterable Components	可迭代组件
+Extensions for Dialect Attributes and Types	方言属性与类型的扩展
+Extensions for Interfaces	接口扩展
+Scoping	作用域规则
+Compatibility and Transformations	兼容性与变换
+Queries	查询
+Data Layout Specifications	数据布局规范
+Data Layout Scoping Operations	数据布局作用域操作
+Types with Data Layout	带数据布局的类型
+Dialects with Data Layout Identifiers	具有数据布局标识符的方言
+Bits and Bytes	位与字节
+Query Dispatch	查询分派
+Built-in Modules	内置模块
+Built-in Types	内置类型
+Byte Size	字节大小
+DLTI Dialect	DLTI 方言
+Source pattern	源模式
+Result pattern	结果模式
+Supporting auxiliary ops	支持辅助操作
+Supporting multi-result ops	支持多结果操作
+Supporting variadic ops	支持可变参数操作
+Supplying additional constraints	提供额外约束
+Supplying additional result patterns	提供额外结果模式
+Adjusting benefits	调整优先级
+Compilation error: no matching member function for call to 'build'	编译错误：找不到匹配的成员函数来调用 'build'
+Adding a new Attribute or Type definition	添加新的属性或类型定义
+CMake Targets	CMake 目标
+Mnemonic	助记名
+Builders	构建器
+Storage Classes	存储类
+Mutable attributes and types	可变属性与类型
+Mnemonic Alias in Assembly	汇编格式中的助记名别名
+Registering with the Dialect	在方言中注册
+Operation name	操作名称
+Operation documentation	操作文档
+Operation arguments	操作参数
+Operation regions	操作区域
+Operation results	操作结果
+Operation successors	操作后继
+Operation traits and constraints	操作 Trait 与约束
+Builder methods	构建器方法
+Custom parser and printer methods	自定义解析器与打印器方法
+Custom verifier code	自定义验证代码
+Declarative Assembly Format	声明式汇编格式
+Extra definitions	额外定义
+Generated C++ code	生成的 C++ 代码
+Single-entity constraint	单实体约束
+Multi-entity constraint	多实体约束
+How to specify new constraint	如何指定新约束
+Attribute decorators	属性修饰器
+Wrapping enums in attributes	将枚举封装在属性中
+Enum properties	枚举属性
+Reporting deprecation in TableGen	在 TableGen 中报告弃用
+Reporting deprecation in C++	在 C++ 中报告弃用
+Requirements and existing mechanisms analysis	需求与现有机制分析
+C++ Namespace	C++ 命名空间
+C++ Accessor Generation	C++ 访问器生成
+Discardable Attribute Verification	可丢弃属性验证
+Operation Interface Fallback	操作接口回退
+Default Attribute/Type Parsers and Printers	默认属性/类型解析器与打印器
+Dialect-wide Canonicalization Patterns	方言级规范化模式
+Defining bytecode format for dialect attributes and types	定义方言属性与类型的字节码格式
+Defining an extensible dialect	定义可扩展方言
+Defining a dynamic dialect	定义动态方言
+Defining an operation at runtime	在运行时定义操作
+Using an operation defined at runtime	使用运行时定义的操作
+Defining a type at runtime	在运行时定义类型
+Parsing types defined at runtime in an extensible dialect	在可扩展方言中解析运行时定义的类型
+Using a type defined at runtime	使用运行时定义的类型
+Defining an attribute at runtime	在运行时定义属性
+Parsing attributes defined at runtime in an extensible dialect	在可扩展方言中解析运行时定义的属性
+Using an attribute defined at runtime	使用运行时定义的属性
+Implementation Details of Extensible Dialects	可扩展方言的实现细节
+Constructing a Diagnostic	构造诊断
+Appending arguments	追加参数
+Attaching notes	附加注释
+Managing Metadata	管理元数据
+Print Operation On Diagnostic	在诊断中打印操作
+Print StackTrace On Diagnostic	在诊断中打印堆栈跟踪
+Scoped Diagnostic Handler	作用域诊断处理器
+SourceMgr Diagnostic Handler	SourceMgr 诊断处理器
+SourceMgr Diagnostic Verifier Handler	SourceMgr 诊断验证处理器
+Parallel Diagnostic Handler	并行诊断处理器
+Recursive Legality	递归合法性
+Region Signature Conversion	区域签名转换
+Dimensions and Symbols	维度与符号
+Restrictions on Dimensions and Symbols	维度与符号的限制
+Affine Expressions	仿射表达式
+Affine Maps	仿射映射
+Semi-affine maps	半仿射映射
+Integer Sets	整数集合
+Compilation overview	编译概览
+Default NVVM Compilation Pipeline: gpu-lower-to-nvvm-pipeline	默认 NVVM 编译流水线：gpu-lower-to-nvvm-pipeline
+Module serialization	模块序列化
+Offloading LLVM translation	卸载式 LLVM 转换
+The binary operation	二元操作
+Data Layout and Triple	数据布局与 Triple
+Functions	函数
+PHI Nodes and Block Arguments	PHI 节点与块参数
+Context-Level Values	上下文级值
+Globals	全局变量
+Linkage	链接属性
+Attribute Pass-Through	属性透传
+Built-in Type Compatibility	内置类型兼容性
+Additional Simple Types	其他简单类型
+Additional Parametric Types	其他参数化类型
+Vector Types	向量类型
+Structure Types	结构体类型
+Unsupported Types	不支持的类型
+Debug Info	调试信息
+Payload-Carrying Ops	携带载荷的操作
+Data Representation: Views	数据表示：视图
+Metadata Ops	元数据操作
+Named Payload-Carrying Ops	命名的载荷操作
+Named Payload Ops Specification	命名载荷操作规范
+YAML Based Named Structured Ops	基于 YAML 的命名结构化操作
+Memory Space Details	内存空间细节
+Data Operations	数据操作
+Recipes	配方
+Routine	例程
+Declare	声明
+Implicit Data Attributes	隐式数据属性
+Redundant Clause Elimination	冗余子句消除
+Construct	构造
+Adding a Clause	添加子句
+Adding an Operation	添加操作
+Overriding Clause-Inherited Properties	覆盖从子句继承的属性
+Tablegen Verification Pass	TableGen 验证 Pass
+Operand Structures	操作数结构
+Entry Block Argument-Defining Clauses	定义入口块参数的子句
+Loop Transformations	循环变换
+Combined Constructs	组合构造
+Composite Constructs	复合构造
+Per-layer quantization	逐层量化
+Per-channel quantization	逐通道量化
+Sub-channel quantization	子通道量化
+Dialect design principles	方言设计原则
+Dialect scopes	方言作用域
+Module-level operations	模块级操作
+Function parameter and return decorations	函数参数与返回值装饰
+Array type	数组类型
+Image type	图像类型
+Pointer type	指针类型
+Runtime array type	运行时数组类型
+Sampled image type	采样图像类型
+Struct type	结构体类型
+Ops from extended instruction sets	来自扩展指令集的操作
+Selection	选择结构
+Loop	循环
+Block argument for Phi	Phi 的块参数
+Shader interface attributes	着色器接口属性
+Utility functions for lowering	下移辅助函数
+Current conversions to SPIR-V	当前到 SPIR-V 的转换
+The dialect	该方言
+Op definitions	Op 定义
+Dialect conversions	方言转换
+Automated development flow	自动化开发流程
+Add a new op	添加新的 op
+Add a new enum	添加新的枚举
+Add a new custom type	添加新的自定义类型
+Add a new conversion	添加新的转换
+Add a new test	添加新的测试
+Device Groups	设备组
+In-group Devices	组内设备
+Purity and Execution Model	纯度与执行模型
+Complete	完整模式
+Minimal	最小模式
+Numerical Precision	数值精度
+COND_IF and WHILE_LOOP	COND_IF 与 WHILE_LOOP
+Quantization Parameters in Ops vs Tensors	操作与张量中的量化参数
+Operation purity	操作纯度
+LLVM level	LLVM 层级
+Hardware Vector Ops	硬件向量操作
+Virtual Vector Ops	虚拟向量操作
+Virtual Vector Rewrite Patterns	虚拟向量重写模式
+Virtual Vector to Hardware Vector Lowering	虚拟向量到硬件向量的下移
+Transformations Problems Avoided	变换所避免的问题
+The Big Out-Of-Scope Piece: Automatic Vectorization	最大的范围外主题：自动向量化
+Alternatives For Lowering an n-D Vector Type to LLVM	将 n 维向量类型下移到 LLVM 的替代方案
+Constraints Inherited from LLVM (see LangRef)	从 LLVM 继承的约束（参见 LangRef）
+Nested Aggregate	嵌套聚合类型
+Flattened 1-D Vector Type	扁平化的一维向量类型
+Relationship to LLVM matrix type proposal.	与 LLVM 矩阵类型提案的关系。
+Conclusion	结论
+Dialect Interfaces	方言接口
+Attribute/Operation/Type Interfaces	属性/操作/类型接口
+Common syntax	通用语法
+Top level Productions	顶层产生式
+Identifiers and keywords	标识符与关键字
+Target specific operations	目标特定操作
+Builtin Operations	内置操作
+Definition	定义
+Value Scoping	值的作用域
+Control Flow and SSACFG Regions	控制流与 SSACFG 区域
+Graph Regions	图区域
+Arguments and Results	参数与结果
+Type Aliases	类型别名
+Dialect Types	方言类型
+Builtin Types	内置类型
+Token Type	Token 类型
+Attribute Value Aliases	属性值别名
+Dialect Attribute Values	方言属性值
+Builtin Attribute Values	内置属性值
+IR Versioning	IR 版本管理
+Generic Lowering	通用下移
+Specialized Lowerings	专用下移
+Why build a new language instead of improving TableGen DRR?	为什么要构建新语言，而不是改进 TableGen DRR？
+Why not build a DSL in "X"?	为什么不在“X”中构建 DSL？
+Includes	包含项
+Patterns	模式
+Variables	变量
+Operation Expression	操作表达式
+Attribute Expression	属性表达式
+Type Expression	类型表达式
+Tuples	元组
+Rewriters	重写器
+Op-Agnostic Operation Passes	与 Op 无关的操作 Pass
+Filtered Operation Pass	过滤式操作 Pass
+Operation Pass: Static Schedule Filtering	操作 Pass：静态调度过滤
+Querying Analyses	查询分析结果
+Preserving Analyses	保留分析结果
+Pass Pipeline Registration	Pass 流水线注册
+Textual Pass Pipeline Specification	文本形式的 Pass 流水线规范
+Tablegen Specification	TableGen 规范
+Standard Instrumentations	标准检测工具
+Local Reproducer Generation	本地复现器生成
+NVVM-specific 'gpu' Dialect Passes	NVVM 专用 gpu 方言 Pass
+ROCDL-specific 'gpu' Dialect Passes	ROCDL 专用 gpu 方言 Pass
+SPIR-V-specific 'gpu' Dialect Passes	SPIR-V 专用 gpu 方言 Pass
+XeVM-specific 'gpu' Dialect Passes	XeVM 专用 gpu 方言 Pass
+Benefit	收益
+Root Operation Name (Optional)	根操作名称（可选）
+Application Recursion	应用递归
+Debug Names and Labels	调试名称与标签
+Construction	构造
+Dialect Conversion Driver	方言转换驱动器
+Walk Pattern Rewrite Driver	遍历式模式重写驱动器
+Greedy Pattern Rewrite Driver	贪心模式重写驱动器
+Pattern Filtering	模式过滤
+Common Pass Utilities	通用 Pass 工具
+Fixed point values	定点值
+Affine values	仿射值
+Relation	关系
+Converting between real and fixed point or affine	实数与定点或仿射值之间的转换
+Quantized type	量化类型
+Quantized type conversion operations	量化类型转换操作
+Instrumentation and constraint operations	检测与约束操作
+General algorithm	通用算法
+How is MLIR relevant?	MLIR 有何关联？
+What does adoption mean?	采用意味着什么？
+A Lossless Human Editable Textual Representation	可由人编辑且无损的文本表示
+A Graph Verification Pass	图验证 Pass
+Designed for Testability	面向可测试性设计
+Infrastructure for Warnings and Error Diagnostics and Location Tracking	警告、错误诊断与位置跟踪基础设施
+Shape Information Captured in the IR	IR 中捕获的形状信息
+Unified Graph Rewriting Infrastructure	统一的图重写基础设施
+Clarified Semantics for TensorFlow Operations	明确 TensorFlow 操作的语义
+Ergonomics	易用性
+Compile Time Performance and Memory Use	编译时性能与内存使用
+Isn't MLIR a big dependency to take on?	MLIR 是否是一个沉重的依赖？
+How does MLIR represent {control flow, concurrency, …} semantics in TensorFlow?	MLIR 如何在 TensorFlow 中表示{控制流、并发等}语义？
+Non Goals	非目标
+Loads and stores	加载与存储
+Symbols and types	符号与类型
+Block Arguments vs PHI nodes	块参数与 PHI 节点
+Index type usage and limitations	Index 类型的用法与限制
+Data layout of non-primitive types	非基本类型的数据布局
+Integer signedness semantics	整数有符号性的语义
+Splitting floating point vs integer operations	浮点操作与整数操作的拆分
+Specifying sign in integer comparison operations	在整数比较操作中指定符号性
+Specifying comparison kind as attribute	将比较类型指定为属性
+Dialect type extensions	方言类型扩展
+Tuple types	元组类型
+Assembly forms	汇编形式
+Non-affine control flow	非仿射控制流
+Non-affine loop bounds	非仿射循环边界
+Reference 2D Convolution	二维卷积参考示例
+Polyhedral code representation alternatives: schedule lists vs schedules trees vs affine loop/if forms	多面体代码表示方案：调度列表、调度树与仿射循环/条件形式
+Affine Relations	仿射关系
+Read/Write/May_Read/May_Write sets for External Functions	外部函数的 Read/Write/May_Read/May_Write 集合
+Memref Extensions	Memref 扩展
+Multithreading the compiler	编译器多线程化
+Constant folding	常量折叠
+AST-Level Pattern Matchers	AST 级模式匹配器
+"Combiners" and other peephole optimizers	“组合器”及其他窥孔优化器
+LLVM's DAG-to-DAG Instruction Selection Infrastructure	LLVM 的 DAG 到 DAG 指令选择基础设施
+Summary	总结
+Non goals	非目标
+Positioning	定位
+Inception	起源
+Evolution	演进
+Lessons from ONNX	从 ONNX 获得的经验
+Lessons from LIFT	从 LIFT 获得的经验
+Lessons from XLA	从 XLA 获得的经验
+Lessons from Halide and TVM	从 Halide 与 TVM 获得的经验
+Lessons from Tensor Comprehensions	从 Tensor Comprehensions 获得的经验
+Lessons from Polyhedral compilers	从多面体编译器获得的经验
+Lessons from the Affine dialect	从 Affine 方言获得的经验
+Transformations and Simplicity First	变换与简洁优先
+Preservation of Information	信息保留
+Interchangeability of Forms	形式的可互换性
+Composable and Declarative Transformations	可组合的声明式变换
+Suitability for Search and Machine Learning	适用于搜索与机器学习
+Extensibility and Future-Proofness	可扩展性与面向未来
+Algorithms + Data Structures = Programs	算法 + 数据结构 = 程序
+The Dialect Need not be Closed Under Transformations	方言无需对变换封闭
+Summary of Existing Alternatives a Picture	现有替代方案概览
+Commonality: can express same computation	共同点：能够表达相同计算
+Commonality: dependence analysis	共同点：依赖分析
+Commonality: difficulty of determining optimal transformation series	共同点：难以确定最优变换序列
+Commonality: compactness of IR	共同点：IR 的紧凑性
+Simplicity of code generation	代码生成的简洁性
+Ease of transformation	变换的简易性
+Ease of analysis: Cost models	分析的简易性：成本模型
+Cost of code generation	代码生成成本
+SSA in ML Functions	ML 函数中的 SSA
+Lack of redundancy in IR	IR 中缺少冗余
+Suitability to purpose: lowering to machine code	用途适配性：下移到机器码
+Resource hierarchy and scope	资源层次结构与作用域
+SIMD compute operation	SIMD 计算操作
+Load like operation	类似加载的操作
+Pervasively duplicated accessors	大量重复的访问器
+Templated accessors	模板化访问器
+Const incorrect in practice	Const 在实践中的不适用性
+Context Locking Without Parallel Execution	无并行执行时的上下文锁定
+GPU/AMDGPU Changes	GPU/AMDGPU 变更
+Target-Independent GPU Transforms	目标无关的 GPU 变换
+GPU/NVVM Changes	GPU/NVVM 变更
+Bytecode	字节码
+Others	其他
+Passed	通过
+Missed	未命中
+Failure	失败
+Analysis	分析
+Configuring Remark Options	配置 Remark 选项
+Basic Example	基本示例
+String Shorthand	字符串简写
+Custom Metrics	自定义指标
+Option 1: LLVM Remark Streamer (YAML or Bitstream)	选项 1：LLVM Remark Streamer（YAML 或位流）
+Option 2: Diagnostic Engine (No Streamer)	选项 2：诊断引擎（无 Streamer）
+Option 3: Custom Streamer	选项 3：自定义 Streamer
+Scalar types	标量类型
+Vector types	向量类型
+Pointer types	指针类型
+Array types	数组类型
+Struct types	结构体类型
+Not implemented types	未实现的类型
+Arithmetic ops	算术操作
+Bitwise ops	位运算操作
+Cast ops	类型转换操作
+Comparison ops	比较操作
+Composite ops	复合操作
+Logical ops	逻辑操作
+Memory ops	内存操作
+Miscellaneous ops with direct conversions	可直接转换的其他操作
+Shift ops	移位操作
+Not implemented ops	未实现的操作
+Branch ops	分支操作
+Direct conversions	直接转换
+Special cases	特殊情况
+Pipeline	流水线
+Walk-through	演练
+Requirements	需求
+Possibly Asked Questions	可能被问到的问题
+Open points	待解决问题
+Defining or declaring a Symbol	定义或声明符号
+Referencing a Symbol	引用符号
+Manipulating a Symbol	操作符号
+Conversion of Built-in Types	内置类型转换
+Conversion of LLVM Container Types with Non-Compatible Element Types	元素类型不兼容的 LLVM 容器类型转换
+Calling Conventions	调用约定
+Generic alloction and deallocation functions	通用分配与释放函数
+C-compatible wrapper emission	生成 C 兼容包装器
+Address Computation	地址计算
+Utility Classes	工具类
+Non-forwarding Semantics	非转发语义
+Supporting custom dialects	支持自定义方言
+Communication and Transport	通信与传输
+Language Server Protocol	语言服务器协议
+Language-Specific Server	特定语言的服务器
+Example MLIR input	MLIR 输入示例
+Write the script for testing interestingness	编写用于测试 interestingness 的脚本
+Running the example	运行示例
+Operation elimination	操作消除
+Rewrite patterns into simpler forms	将重写模式化简
+Reduce with built-in optimization passes	使用内置优化 Pass 进行归约
+Extra Declarations and Definitions	额外声明与定义
+Parametric Traits	参数化 Trait
+Attaching Operation Traits in ODS	在 ODS 中附加操作 Trait
+Single Block Region	单块区域
+Single Block with Implicit Terminator	带隐式终结符的单块区域
+Terminator	终结符
+TableGen Targets	TableGen 目标
+Library Targets	库目标
+Lattices	格
+ForwardDataflowAnalysis Driver	前向数据流分析驱动器
+TableGen patterns	TableGen 模式
+Register the pattern	注册模式
+Opaque API	不透明 API
+Op vs Operation: Using MLIR Operations	Op 与 Operation：使用 MLIR 操作
+Using the Operation Definition Specification (ODS) Framework	使用 Operation Definition Specification（ODS）框架
+Inlining	内联
+Intraprocedural Shape Inference	过程内形状推断
+Design Considerations With Partial Lowering	部分下移的设计考量
+Full Lowering	完全下移
+Emitting LLVM IR	生成 LLVM IR
+Setting up a JIT	设置 JIT
+Defining the Type Class	定义 Type 类
+Exposing to ODS	向 ODS 暴露
+Walkers	遍历器

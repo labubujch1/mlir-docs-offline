@@ -1,0 +1,828 @@
+# 待补译的三级标题（h3）：english <TAB> 中文 <TAB> 出现次数 <TAB> 示例文件
+# 填好第二列后，把本文件相关行并入 i18n/headings_zh.tsv，再跑 make_printable.py
+
+Methods:	方法:	18	markdown/DataLayout.md
+CmpFPredicate	CmpFPredicate	4	markdown/Dialects/ArithOps.md
+CmpIPredicate	CmpIPredicate	4	markdown/Dialects/ArithOps.md
+IntegerOverflowFlags	IntegerOverflowFlags	4	markdown/Dialects/ArithOps.md
+RoundingMode	RoundingMode	4	markdown/Dialects/ArithOps.md
+AtomicRMWKind	AtomicRMWKind	4	markdown/Dialects/ArithOps.md
+FastMathFlags	FastMathFlags	4	markdown/Dialects/ArithOps.md
+Extra declarations	额外声明	3	markdown/DefiningDialects/AttributesAndTypes.md
+Initialization	初始化	3	markdown/DefiningDialects.md
+TokenType	TokenType	3	markdown/Dialects/AsyncDialect.md
+Features	特性	3	markdown/Tools/MLIRLSP.md
+Scope	作用域	2	markdown/CAPI.md
+Class Name	类名	2	markdown/DefiningDialects/AttributesAndTypes.md
+Documentation	文档	2	markdown/DefiningDialects/AttributesAndTypes.md
+Parsing and Printing	解析与打印	2	markdown/DefiningDialects/AttributesAndTypes.md
+Dependent Dialects	依赖方言	2	markdown/DefiningDialects.md
+Strict Property Assembly Formats	严格属性汇编格式	2	markdown/DefiningDialects.md
+Type Converter	类型转换器	2	markdown/DialectConversion.md
+BufferOOBMode	BufferOOBMode	2	markdown/Dialects/AMDGPU.md
+Gfx12AtomicCachePolicy	Gfx12AtomicCachePolicy	2	markdown/Dialects/AMDGPU.md
+Gfx12CachePolicy	Gfx12CachePolicy	2	markdown/Dialects/AMDGPU.md
+Gfx942CachePolicy	Gfx942CachePolicy	2	markdown/Dialects/AMDGPU.md
+MFMANegModifier	MFMANegModifier	2	markdown/Dialects/AMDGPU.md
+MFMAPermB	MFMAPermB	2	markdown/Dialects/AMDGPU.md
+MatrixFormat	MatrixFormat	2	markdown/Dialects/AMDGPU.md
+PreGfx12CachePolicy	PreGfx12CachePolicy	2	markdown/Dialects/AMDGPU.md
+SchedGroupMask	SchedGroupMask	2	markdown/Dialects/AMDGPU.md
+WMMACModifier	WMMACModifier	2	markdown/Dialects/AMDGPU.md
+WMMAMatrixScale	WMMAMatrixScale	2	markdown/Dialects/AMDGPU.md
+WMMAMatrixScaleFormat	WMMAMatrixScaleFormat	2	markdown/Dialects/AMDGPU.md
+ValueType	ValueType	2	markdown/Dialects/AsyncDialect.md
+OpaqueAttr	OpaqueAttr	2	markdown/Dialects/Builtin.md
+OpaqueType	OpaqueType	2	markdown/Dialects/Builtin.md
+ArrayType	ArrayType	2	markdown/Dialects/EmitC.md
+OperationType	OperationType	2	markdown/Dialects/PDLOps.md
+Discussion	讨论	2	markdown/Dialects/Vector.md
+Properties: beyond attributes	超越属性的 Properties	2	markdown/ReleaseNotes.md
+Compilation Database	编译数据库	2	markdown/Tools/MLIRLSP.md
+Debug Counters	调试计数器	1	markdown/ActionTracing.md
+ExecutionContext	ExecutionContext	1	markdown/ActionTracing.md
+Pre-requisites	先决条件	1	markdown/Bindings/Python.md
+CMake variables	CMake 变量	1	markdown/Bindings/Python.md
+Recommended development practices	推荐的开发实践	1	markdown/Bindings/Python.md
+Use cases	使用场景	1	markdown/Bindings/Python.md
+Composable modules	可组合模块	1	markdown/Bindings/Python.md
+Submodules	子模块	1	markdown/Bindings/Python.md
+Loader	加载器	1	markdown/Bindings/Python.md
+Use the C-API	使用 C API	1	markdown/Bindings/Python.md
+Ownership in the Core IR	核心 IR 中的所有权	1	markdown/Bindings/Python.md
+Optionality and argument ordering in the Core IR	核心 IR 中的可选性与参数顺序	1	markdown/Bindings/Python.md
+Context Management	上下文管理	1	markdown/Bindings/Python.md
+Inspecting IR Objects	检查 IR 对象	1	markdown/Bindings/Python.md
+Creating IR Objects	创建 IR 对象	1	markdown/Bindings/Python.md
+Properties vs get*() methods	Properties 与 get*() 方法	1	markdown/Bindings/Python.md
+**repr** methods	**repr** 方法	1	markdown/Bindings/Python.md
+CamelCase vs snake_case	CamelCase 与 snake_case	1	markdown/Bindings/Python.md
+Prefer pseudo-containers	优先使用伪容器	1	markdown/Bindings/Python.md
+Provide one stop helpers for common things	为常见任务提供一站式辅助函数	1	markdown/Bindings/Python.md
+Sample FileCheck test	FileCheck 测试示例	1	markdown/Bindings/Python.md
+Extending the search path for wrapper modules	扩展包装模块的搜索路径	1	markdown/Bindings/Python.md
+Wrapper module code organization	包装模块的代码组织	1	markdown/Bindings/Python.md
+Other functionality	其他功能	1	markdown/Bindings/Python.md
+Rewrite Patterns	重写模式	1	markdown/Bindings/Python.md
+Primitives	基本元素	1	markdown/BytecodeFormat.md
+Sections	区段	1	markdown/BytecodeFormat.md
+Top Level Structure	顶层结构	1	markdown/BytecodeFormat.md
+String Section	字符串区段	1	markdown/BytecodeFormat.md
+Dialect Section	方言区段	1	markdown/BytecodeFormat.md
+Attribute/Type Sections	属性/类型区段	1	markdown/BytecodeFormat.md
+Resource Section	资源区段	1	markdown/BytecodeFormat.md
+IR Section	IR 区段	1	markdown/BytecodeFormat.md
+Object Model	对象模型	1	markdown/CAPI.md
+Naming Convention and Ownership Model	命名约定与所有权模型	1	markdown/CAPI.md
+Nullity	空值性	1	markdown/CAPI.md
+Type Hierarchies	类型层次结构	1	markdown/CAPI.md
+Auxiliary Types	辅助类型	1	markdown/CAPI.md
+Printing	打印	1	markdown/CAPI.md
+Indexed Components	带索引的组件	1	markdown/CAPI.md
+Iterable Components	可迭代组件	1	markdown/CAPI.md
+Extensions for Dialect Attributes and Types	方言属性与类型的扩展	1	markdown/CAPI.md
+Extensions for Interfaces	接口扩展	1	markdown/CAPI.md
+Scoping	作用域规则	1	markdown/DataLayout.md
+Compatibility and Transformations	兼容性与变换	1	markdown/DataLayout.md
+Queries	查询	1	markdown/DataLayout.md
+Data Layout Specifications	数据布局规范	1	markdown/DataLayout.md
+Data Layout Scoping Operations	数据布局作用域操作	1	markdown/DataLayout.md
+Types with Data Layout	带数据布局的类型	1	markdown/DataLayout.md
+Dialects with Data Layout Identifiers	具有数据布局标识符的方言	1	markdown/DataLayout.md
+Bits and Bytes	位与字节	1	markdown/DataLayout.md
+Query Dispatch	查询分派	1	markdown/DataLayout.md
+Built-in Modules	内置模块	1	markdown/DataLayout.md
+Built-in Types	内置类型	1	markdown/DataLayout.md
+Byte Size	字节大小	1	markdown/DataLayout.md
+DLTI Dialect	DLTI 方言	1	markdown/DataLayout.md
+Source pattern	源模式	1	markdown/DeclarativeRewrites.md
+Result pattern	结果模式	1	markdown/DeclarativeRewrites.md
+Supporting auxiliary ops	支持辅助操作	1	markdown/DeclarativeRewrites.md
+Supporting multi-result ops	支持多结果操作	1	markdown/DeclarativeRewrites.md
+Supporting variadic ops	支持可变参数操作	1	markdown/DeclarativeRewrites.md
+Supplying additional constraints	提供额外约束	1	markdown/DeclarativeRewrites.md
+Supplying additional result patterns	提供额外结果模式	1	markdown/DeclarativeRewrites.md
+Adjusting benefits	调整优先级	1	markdown/DeclarativeRewrites.md
+Compilation error: no matching member function for call to 'build'	编译错误：找不到匹配的成员函数来调用 'build'	1	markdown/DeclarativeRewrites.md
+Adding a new Attribute or Type definition	添加新的属性或类型定义	1	markdown/DefiningDialects/AttributesAndTypes.md
+CMake Targets	CMake 目标	1	markdown/DefiningDialects/AttributesAndTypes.md
+Mnemonic	助记名	1	markdown/DefiningDialects/AttributesAndTypes.md
+Builders	构建器	1	markdown/DefiningDialects/AttributesAndTypes.md
+Storage Classes	存储类	1	markdown/DefiningDialects/AttributesAndTypes.md
+Mutable attributes and types	可变属性与类型	1	markdown/DefiningDialects/AttributesAndTypes.md
+Mnemonic Alias in Assembly	汇编格式中的助记名别名	1	markdown/DefiningDialects/AttributesAndTypes.md
+Registering with the Dialect	在方言中注册	1	markdown/DefiningDialects/AttributesAndTypes.md
+Operation name	操作名称	1	markdown/DefiningDialects/Operations.md
+Operation documentation	操作文档	1	markdown/DefiningDialects/Operations.md
+Operation arguments	操作参数	1	markdown/DefiningDialects/Operations.md
+Operation regions	操作区域	1	markdown/DefiningDialects/Operations.md
+Operation results	操作结果	1	markdown/DefiningDialects/Operations.md
+Operation successors	操作后继	1	markdown/DefiningDialects/Operations.md
+Operation traits and constraints	操作 Trait 与约束	1	markdown/DefiningDialects/Operations.md
+Builder methods	构建器方法	1	markdown/DefiningDialects/Operations.md
+Custom parser and printer methods	自定义解析器与打印器方法	1	markdown/DefiningDialects/Operations.md
+Custom verifier code	自定义验证代码	1	markdown/DefiningDialects/Operations.md
+Declarative Assembly Format	声明式汇编格式	1	markdown/DefiningDialects/Operations.md
+Extra definitions	额外定义	1	markdown/DefiningDialects/Operations.md
+Generated C++ code	生成的 C++ 代码	1	markdown/DefiningDialects/Operations.md
+Single-entity constraint	单实体约束	1	markdown/DefiningDialects/Operations.md
+Multi-entity constraint	多实体约束	1	markdown/DefiningDialects/Operations.md
+Trait	Trait	1	markdown/DefiningDialects/Operations.md
+How to specify new constraint	如何指定新约束	1	markdown/DefiningDialects/Operations.md
+Attribute decorators	属性修饰器	1	markdown/DefiningDialects/Operations.md
+Wrapping enums in attributes	将枚举封装在属性中	1	markdown/DefiningDialects/Operations.md
+Enum properties	枚举属性	1	markdown/DefiningDialects/Operations.md
+Reporting deprecation in TableGen	在 TableGen 中报告弃用	1	markdown/DefiningDialects/Operations.md
+Reporting deprecation in C++	在 C++ 中报告弃用	1	markdown/DefiningDialects/Operations.md
+Requirements and existing mechanisms analysis	需求与现有机制分析	1	markdown/DefiningDialects/Operations.md
+C++ Namespace	C++ 命名空间	1	markdown/DefiningDialects.md
+C++ Accessor Generation	C++ 访问器生成	1	markdown/DefiningDialects.md
+Discardable Attribute Verification	可丢弃属性验证	1	markdown/DefiningDialects.md
+Operation Interface Fallback	操作接口回退	1	markdown/DefiningDialects.md
+Default Attribute/Type Parsers and Printers	默认属性/类型解析器与打印器	1	markdown/DefiningDialects.md
+Dialect-wide Canonicalization Patterns	方言级规范化模式	1	markdown/DefiningDialects.md
+Defining bytecode format for dialect attributes and types	定义方言属性与类型的字节码格式	1	markdown/DefiningDialects.md
+Defining an extensible dialect	定义可扩展方言	1	markdown/DefiningDialects.md
+Defining a dynamic dialect	定义动态方言	1	markdown/DefiningDialects.md
+Defining an operation at runtime	在运行时定义操作	1	markdown/DefiningDialects.md
+Using an operation defined at runtime	使用运行时定义的操作	1	markdown/DefiningDialects.md
+Defining a type at runtime	在运行时定义类型	1	markdown/DefiningDialects.md
+Parsing types defined at runtime in an extensible dialect	在可扩展方言中解析运行时定义的类型	1	markdown/DefiningDialects.md
+Using a type defined at runtime	使用运行时定义的类型	1	markdown/DefiningDialects.md
+Defining an attribute at runtime	在运行时定义属性	1	markdown/DefiningDialects.md
+Parsing attributes defined at runtime in an extensible dialect	在可扩展方言中解析运行时定义的属性	1	markdown/DefiningDialects.md
+Using an attribute defined at runtime	使用运行时定义的属性	1	markdown/DefiningDialects.md
+Implementation Details of Extensible Dialects	可扩展方言的实现细节	1	markdown/DefiningDialects.md
+Constructing a Diagnostic	构造诊断	1	markdown/Diagnostics.md
+Appending arguments	追加参数	1	markdown/Diagnostics.md
+Attaching notes	附加注释	1	markdown/Diagnostics.md
+Managing Metadata	管理元数据	1	markdown/Diagnostics.md
+Print Operation On Diagnostic	在诊断中打印操作	1	markdown/Diagnostics.md
+Print StackTrace On Diagnostic	在诊断中打印堆栈跟踪	1	markdown/Diagnostics.md
+Scoped Diagnostic Handler	作用域诊断处理器	1	markdown/Diagnostics.md
+SourceMgr Diagnostic Handler	SourceMgr 诊断处理器	1	markdown/Diagnostics.md
+SourceMgr Diagnostic Verifier Handler	SourceMgr 诊断验证处理器	1	markdown/Diagnostics.md
+Parallel Diagnostic Handler	并行诊断处理器	1	markdown/Diagnostics.md
+Recursive Legality	递归合法性	1	markdown/DialectConversion.md
+Region Signature Conversion	区域签名转换	1	markdown/DialectConversion.md
+AddressSpaceAttr	AddressSpaceAttr	1	markdown/Dialects/AMDGPU.md
+ScopeAttr	ScopeAttr	1	markdown/Dialects/AMDGPU.md
+DPPPermAttr	DPPPermAttr	1	markdown/Dialects/AMDGPU.md
+LoadTemporalHintAttr	LoadTemporalHintAttr	1	markdown/Dialects/AMDGPU.md
+DsBarrierStateType	DsBarrierStateType	1	markdown/Dialects/AMDGPU.md
+TDMBaseType	TDMBaseType	1	markdown/Dialects/AMDGPU.md
+TDMDescriptorType	TDMDescriptorType	1	markdown/Dialects/AMDGPU.md
+TDMGatherBaseType	TDMGatherBaseType	1	markdown/Dialects/AMDGPU.md
+AddressSpace	AddressSpace	1	markdown/Dialects/AMDGPU.md
+DPPPerm	DPPPerm	1	markdown/Dialects/AMDGPU.md
+LoadTemporalHint	LoadTemporalHint	1	markdown/Dialects/AMDGPU.md
+Dimensions and Symbols	维度与符号	1	markdown/Dialects/Affine.md
+Restrictions on Dimensions and Symbols	维度与符号的限制	1	markdown/Dialects/Affine.md
+Affine Expressions	仿射表达式	1	markdown/Dialects/Affine.md
+Affine Maps	仿射映射	1	markdown/Dialects/Affine.md
+Semi-affine maps	半仿射映射	1	markdown/Dialects/Affine.md
+Integer Sets	整数集合	1	markdown/Dialects/Affine.md
+FastMathFlagsAttr	FastMathFlagsAttr	1	markdown/Dialects/ArithOps.md
+IntegerOverflowFlagsAttr	IntegerOverflowFlagsAttr	1	markdown/Dialects/ArithOps.md
+CoroHandleType	CoroHandleType	1	markdown/Dialects/AsyncDialect.md
+CoroIdType	CoroIdType	1	markdown/Dialects/AsyncDialect.md
+CoroStateType	CoroStateType	1	markdown/Dialects/AsyncDialect.md
+GroupType	GroupType	1	markdown/Dialects/AsyncDialect.md
+AffineMapAttr	AffineMapAttr	1	markdown/Dialects/Builtin.md
+ArrayAttr	ArrayAttr	1	markdown/Dialects/Builtin.md
+DenseArrayAttr	DenseArrayAttr	1	markdown/Dialects/Builtin.md
+DenseResourceElementsAttr	DenseResourceElementsAttr	1	markdown/Dialects/Builtin.md
+DenseStringElementsAttr	DenseStringElementsAttr	1	markdown/Dialects/Builtin.md
+DenseTypedElementsAttr	DenseTypedElementsAttr	1	markdown/Dialects/Builtin.md
+DictionaryAttr	DictionaryAttr	1	markdown/Dialects/Builtin.md
+FloatAttr	FloatAttr	1	markdown/Dialects/Builtin.md
+IntegerAttr	IntegerAttr	1	markdown/Dialects/Builtin.md
+IntegerSetAttr	IntegerSetAttr	1	markdown/Dialects/Builtin.md
+SparseElementsAttr	SparseElementsAttr	1	markdown/Dialects/Builtin.md
+StringAttr	StringAttr	1	markdown/Dialects/Builtin.md
+SymbolRefAttr	SymbolRefAttr	1	markdown/Dialects/Builtin.md
+TypeAttr	TypeAttr	1	markdown/Dialects/Builtin.md
+UnitAttr	UnitAttr	1	markdown/Dialects/Builtin.md
+StridedLayoutAttr	StridedLayoutAttr	1	markdown/Dialects/Builtin.md
+CallSiteLoc	CallSiteLoc	1	markdown/Dialects/Builtin.md
+FileLineColRange	FileLineColRange	1	markdown/Dialects/Builtin.md
+FusedLoc	FusedLoc	1	markdown/Dialects/Builtin.md
+NameLoc	NameLoc	1	markdown/Dialects/Builtin.md
+OpaqueLoc	OpaqueLoc	1	markdown/Dialects/Builtin.md
+UnknownLoc	UnknownLoc	1	markdown/Dialects/Builtin.md
+BFloat16Type	BFloat16Type	1	markdown/Dialects/Builtin.md
+ComplexType	ComplexType	1	markdown/Dialects/Builtin.md
+Float4E2M1FNType	Float4E2M1FNType	1	markdown/Dialects/Builtin.md
+Float6E2M3FNType	Float6E2M3FNType	1	markdown/Dialects/Builtin.md
+Float6E3M2FNType	Float6E3M2FNType	1	markdown/Dialects/Builtin.md
+Float8E3M4Type	Float8E3M4Type	1	markdown/Dialects/Builtin.md
+Float8E4M3Type	Float8E4M3Type	1	markdown/Dialects/Builtin.md
+Float8E4M3B11FNUZType	Float8E4M3B11FNUZType	1	markdown/Dialects/Builtin.md
+Float8E4M3FNType	Float8E4M3FNType	1	markdown/Dialects/Builtin.md
+Float8E4M3FNUZType	Float8E4M3FNUZType	1	markdown/Dialects/Builtin.md
+Float8E5M2Type	Float8E5M2Type	1	markdown/Dialects/Builtin.md
+Float8E5M2FNUZType	Float8E5M2FNUZType	1	markdown/Dialects/Builtin.md
+Float8E5M3FNUType	Float8E5M3FNUType	1	markdown/Dialects/Builtin.md
+Float8E8M0FNUType	Float8E8M0FNUType	1	markdown/Dialects/Builtin.md
+Float16Type	Float16Type	1	markdown/Dialects/Builtin.md
+Float32Type	Float32Type	1	markdown/Dialects/Builtin.md
+Float64Type	Float64Type	1	markdown/Dialects/Builtin.md
+Float80Type	Float80Type	1	markdown/Dialects/Builtin.md
+Float128Type	Float128Type	1	markdown/Dialects/Builtin.md
+FloatTF32Type	FloatTF32Type	1	markdown/Dialects/Builtin.md
+FunctionType	FunctionType	1	markdown/Dialects/Builtin.md
+GraphType	GraphType	1	markdown/Dialects/Builtin.md
+IndexType	IndexType	1	markdown/Dialects/Builtin.md
+IntegerType	IntegerType	1	markdown/Dialects/Builtin.md
+MemRefType	MemRefType	1	markdown/Dialects/Builtin.md
+NoneType	NoneType	1	markdown/Dialects/Builtin.md
+RankedTensorType	RankedTensorType	1	markdown/Dialects/Builtin.md
+TupleType	TupleType	1	markdown/Dialects/Builtin.md
+UnrankedMemRefType	UnrankedMemRefType	1	markdown/Dialects/Builtin.md
+UnrankedTensorType	UnrankedTensorType	1	markdown/Dialects/Builtin.md
+VectorType	VectorType	1	markdown/Dialects/Builtin.md
+ComplexRangeFlags	ComplexRangeFlags	1	markdown/Dialects/ComplexOps.md
+DataLayoutEntryAttr	DataLayoutEntryAttr	1	markdown/Dialects/DLTIDialect.md
+DataLayoutSpecAttr	DataLayoutSpecAttr	1	markdown/Dialects/DLTIDialect.md
+FunctionPointerAlignmentAttr	FunctionPointerAlignmentAttr	1	markdown/Dialects/DLTIDialect.md
+MapAttr	MapAttr	1	markdown/Dialects/DLTIDialect.md
+TargetDeviceSpecAttr	TargetDeviceSpecAttr	1	markdown/Dialects/DLTIDialect.md
+TargetSystemSpecAttr	TargetSystemSpecAttr	1	markdown/Dialects/DLTIDialect.md
+LValueType	LValueType	1	markdown/Dialects/EmitC.md
+PointerType	PointerType	1	markdown/Dialects/EmitC.md
+PtrDiffTType	PtrDiffTType	1	markdown/Dialects/EmitC.md
+SignedSizeTType	SignedSizeTType	1	markdown/Dialects/EmitC.md
+SizeTType	SizeTType	1	markdown/Dialects/EmitC.md
+ClassType	ClassType	1	markdown/Dialects/EmitC.md
+CmpPredicate	CmpPredicate	1	markdown/Dialects/EmitC.md
+Compilation overview	编译概览	1	markdown/Dialects/GPU.md
+Default NVVM Compilation Pipeline: gpu-lower-to-nvvm-pipeline	默认 NVVM 编译流水线：gpu-lower-to-nvvm-pipeline	1	markdown/Dialects/GPU.md
+Module serialization	模块序列化	1	markdown/Dialects/GPU.md
+Offloading LLVM translation	卸载式 LLVM 转换	1	markdown/Dialects/GPU.md
+The binary operation	二元操作	1	markdown/Dialects/GPU.md
+IndexCmpPredicateAttr	IndexCmpPredicateAttr	1	markdown/Dialects/IndexOps.md
+IndexCmpPredicate	IndexCmpPredicate	1	markdown/Dialects/IndexOps.md
+Data Layout and Triple	数据布局与 Triple	1	markdown/Dialects/LLVM.md
+Functions	函数	1	markdown/Dialects/LLVM.md
+PHI Nodes and Block Arguments	PHI 节点与块参数	1	markdown/Dialects/LLVM.md
+Context-Level Values	上下文级值	1	markdown/Dialects/LLVM.md
+Globals	全局变量	1	markdown/Dialects/LLVM.md
+Linkage	链接属性	1	markdown/Dialects/LLVM.md
+Attribute Pass-Through	属性透传	1	markdown/Dialects/LLVM.md
+Built-in Type Compatibility	内置类型兼容性	1	markdown/Dialects/LLVM.md
+Additional Simple Types	其他简单类型	1	markdown/Dialects/LLVM.md
+Additional Parametric Types	其他参数化类型	1	markdown/Dialects/LLVM.md
+Vector Types	向量类型	1	markdown/Dialects/LLVM.md
+Structure Types	结构体类型	1	markdown/Dialects/LLVM.md
+Unsupported Types	不支持的类型	1	markdown/Dialects/LLVM.md
+Debug Info	调试信息	1	markdown/Dialects/LLVM.md
+Payload-Carrying Ops	携带载荷的操作	1	markdown/Dialects/Linalg.md
+Data Representation: Views	数据表示：视图	1	markdown/Dialects/Linalg.md
+Metadata Ops	元数据操作	1	markdown/Dialects/Linalg.md
+Named Payload-Carrying Ops	命名的载荷操作	1	markdown/Dialects/Linalg.md
+Named Payload Ops Specification	命名载荷操作规范	1	markdown/Dialects/Linalg.md
+YAML Based Named Structured Ops	基于 YAML 的命名结构化操作	1	markdown/Dialects/Linalg.md
+ExternAttr	ExternAttr	1	markdown/Dialects/MLProgramOps.md
+MPI_ErrorClassEnumAttr	MPI_ErrorClassEnumAttr	1	markdown/Dialects/MPI.md
+CommType	CommType	1	markdown/Dialects/MPI.md
+RequestType	RequestType	1	markdown/Dialects/MPI.md
+RetvalType	RetvalType	1	markdown/Dialects/MPI.md
+StatusType	StatusType	1	markdown/Dialects/MPI.md
+MPI_ErrorClassEnum	MPI_ErrorClassEnum	1	markdown/Dialects/MPI.md
+MPI_ReductionOpEnum	MPI_ReductionOpEnum	1	markdown/Dialects/MPI.md
+RcpRoundingModeAttr	RcpRoundingModeAttr	1	markdown/Dialects/NVGPU.md
+TensorMapInterleaveKindAttr	TensorMapInterleaveKindAttr	1	markdown/Dialects/NVGPU.md
+TensorMapL2PromoKindAttr	TensorMapL2PromoKindAttr	1	markdown/Dialects/NVGPU.md
+TensorMapOOBKindAttr	TensorMapOOBKindAttr	1	markdown/Dialects/NVGPU.md
+TensorMapSwizzleKindAttr	TensorMapSwizzleKindAttr	1	markdown/Dialects/NVGPU.md
+DeviceAsyncTokenType	DeviceAsyncTokenType	1	markdown/Dialects/NVGPU.md
+MBarrierGroupType	MBarrierGroupType	1	markdown/Dialects/NVGPU.md
+MBarrierTokenType	MBarrierTokenType	1	markdown/Dialects/NVGPU.md
+TensorMapDescriptorType	TensorMapDescriptorType	1	markdown/Dialects/NVGPU.md
+WarpgroupAccumulatorType	WarpgroupAccumulatorType	1	markdown/Dialects/NVGPU.md
+WarpgroupMatrixDescriptorType	WarpgroupMatrixDescriptorType	1	markdown/Dialects/NVGPU.md
+FPRoundingMode	FPRoundingMode	1	markdown/Dialects/NVGPU.md
+RcpRoundingMode	RcpRoundingMode	1	markdown/Dialects/NVGPU.md
+SaturationMode	SaturationMode	1	markdown/Dialects/NVGPU.md
+TensorMapInterleaveKind	TensorMapInterleaveKind	1	markdown/Dialects/NVGPU.md
+TensorMapL2PromoKind	TensorMapL2PromoKind	1	markdown/Dialects/NVGPU.md
+TensorMapOOBKind	TensorMapOOBKind	1	markdown/Dialects/NVGPU.md
+TensorMapSwizzleKind	TensorMapSwizzleKind	1	markdown/Dialects/NVGPU.md
+Memory Space Details	内存空间细节	1	markdown/Dialects/NVVMDialect.md
+Data Operations	数据操作	1	markdown/Dialects/OpenACCDialect.md
+Recipes	配方	1	markdown/Dialects/OpenACCDialect.md
+Routine	例程	1	markdown/Dialects/OpenACCDialect.md
+Declare	声明	1	markdown/Dialects/OpenACCDialect.md
+Implicit Data Attributes	隐式数据属性	1	markdown/Dialects/OpenACCDialect.md
+Redundant Clause Elimination	冗余子句消除	1	markdown/Dialects/OpenACCDialect.md
+DeclareActionAttr	DeclareActionAttr	1	markdown/Dialects/OpenACCDialect.md
+DeclareAttr	DeclareAttr	1	markdown/Dialects/OpenACCDialect.md
+ClauseDefaultValueAttr	ClauseDefaultValueAttr	1	markdown/Dialects/OpenACCDialect.md
+ActiveParDimsAttr	ActiveParDimsAttr	1	markdown/Dialects/OpenACCDialect.md
+ChunkSizeAttr	ChunkSizeAttr	1	markdown/Dialects/OpenACCDialect.md
+CombinedConstructsTypeAttr	CombinedConstructsTypeAttr	1	markdown/Dialects/OpenACCDialect.md
+ConstructAttr	ConstructAttr	1	markdown/Dialects/OpenACCDialect.md
+DataClauseAttr	DataClauseAttr	1	markdown/Dialects/OpenACCDialect.md
+DataClauseModifierAttr	DataClauseModifierAttr	1	markdown/Dialects/OpenACCDialect.md
+DataDescKindAttr	DataDescKindAttr	1	markdown/Dialects/OpenACCDialect.md
+DeviceTypeAttr	DeviceTypeAttr	1	markdown/Dialects/OpenACCDialect.md
+GPUBlockRedundantAttr	GPUBlockRedundantAttr	1	markdown/Dialects/OpenACCDialect.md
+GPUParallelDimAttr	GPUParallelDimAttr	1	markdown/Dialects/OpenACCDialect.md
+GPUParallelDimsAttr	GPUParallelDimsAttr	1	markdown/Dialects/OpenACCDialect.md
+GangArgTypeAttr	GangArgTypeAttr	1	markdown/Dialects/OpenACCDialect.md
+LoopLocAttr	LoopLocAttr	1	markdown/Dialects/OpenACCDialect.md
+MapFlagsAttr	MapFlagsAttr	1	markdown/Dialects/OpenACCDialect.md
+ParLevelAttr	ParLevelAttr	1	markdown/Dialects/OpenACCDialect.md
+RecipeKindAttr	RecipeKindAttr	1	markdown/Dialects/OpenACCDialect.md
+ReductionOperatorAttr	ReductionOperatorAttr	1	markdown/Dialects/OpenACCDialect.md
+VarNameAttr	VarNameAttr	1	markdown/Dialects/OpenACCDialect.md
+RoutineInfoAttr	RoutineInfoAttr	1	markdown/Dialects/OpenACCDialect.md
+SpecializedRoutineAttr	SpecializedRoutineAttr	1	markdown/Dialects/OpenACCDialect.md
+DataBoundsType	DataBoundsType	1	markdown/Dialects/OpenACCDialect.md
+DeclareTokenType	DeclareTokenType	1	markdown/Dialects/OpenACCDialect.md
+PrivateType	PrivateType	1	markdown/Dialects/OpenACCDialect.md
+ClauseDefaultValue	ClauseDefaultValue	1	markdown/Dialects/OpenACCDialect.md
+CombinedConstructsType	CombinedConstructsType	1	markdown/Dialects/OpenACCDialect.md
+Construct	构造	1	markdown/Dialects/OpenACCDialect.md
+DataClause	DataClause	1	markdown/Dialects/OpenACCDialect.md
+DataClauseModifier	DataClauseModifier	1	markdown/Dialects/OpenACCDialect.md
+DataDescKind	DataDescKind	1	markdown/Dialects/OpenACCDialect.md
+DeviceType	DeviceType	1	markdown/Dialects/OpenACCDialect.md
+GangArgType	GangArgType	1	markdown/Dialects/OpenACCDialect.md
+LoopParMode	LoopParMode	1	markdown/Dialects/OpenACCDialect.md
+MapFlags	MapFlags	1	markdown/Dialects/OpenACCDialect.md
+ParLevel	ParLevel	1	markdown/Dialects/OpenACCDialect.md
+RecipeKind	RecipeKind	1	markdown/Dialects/OpenACCDialect.md
+ReductionOperator	ReductionOperator	1	markdown/Dialects/OpenACCDialect.md
+VariableTypeCategory	VariableTypeCategory	1	markdown/Dialects/OpenACCDialect.md
+AccessGroupModifierAttr	AccessGroupModifierAttr	1	markdown/Dialects/OpenMPDialect/ODS.md
+AtomicControlAttr	AtomicControlAttr	1	markdown/Dialects/OpenMPDialect/ODS.md
+ClauseBindKindAttr	ClauseBindKindAttr	1	markdown/Dialects/OpenMPDialect/ODS.md
+ClauseCancellationConstructTypeAttr	ClauseCancellationConstructTypeAttr	1	markdown/Dialects/OpenMPDialect/ODS.md
+ClauseDependAttr	ClauseDependAttr	1	markdown/Dialects/OpenMPDialect/ODS.md
+ClauseMapFlagsAttr	ClauseMapFlagsAttr	1	markdown/Dialects/OpenMPDialect/ODS.md
+ClauseRequiresAttr	ClauseRequiresAttr	1	markdown/Dialects/OpenMPDialect/ODS.md
+ClauseSeverityAttr	ClauseSeverityAttr	1	markdown/Dialects/OpenMPDialect/ODS.md
+ClauseTaskDependAttr	ClauseTaskDependAttr	1	markdown/Dialects/OpenMPDialect/ODS.md
+DataSharingClauseTypeAttr	DataSharingClauseTypeAttr	1	markdown/Dialects/OpenMPDialect/ODS.md
+DeclareTargetAttr	DeclareTargetAttr	1	markdown/Dialects/OpenMPDialect/ODS.md
+DeclareTargetCaptureClauseAttr	DeclareTargetCaptureClauseAttr	1	markdown/Dialects/OpenMPDialect/ODS.md
+DeclareTargetDeviceTypeAttr	DeclareTargetDeviceTypeAttr	1	markdown/Dialects/OpenMPDialect/ODS.md
+FallbackModifierAttr	FallbackModifierAttr	1	markdown/Dialects/OpenMPDialect/ODS.md
+FlagsAttr	FlagsAttr	1	markdown/Dialects/OpenMPDialect/ODS.md
+ClauseGrainsizeTypeAttr	ClauseGrainsizeTypeAttr	1	markdown/Dialects/OpenMPDialect/ODS.md
+IntegerWrapAroundAttr	IntegerWrapAroundAttr	1	markdown/Dialects/OpenMPDialect/ODS.md
+InteropTypeAttr	InteropTypeAttr	1	markdown/Dialects/OpenMPDialect/ODS.md
+LinearModifierAttr	LinearModifierAttr	1	markdown/Dialects/OpenMPDialect/ODS.md
+ClauseMemoryOrderKindAttr	ClauseMemoryOrderKindAttr	1	markdown/Dialects/OpenMPDialect/ODS.md
+ClauseNumTasksTypeAttr	ClauseNumTasksTypeAttr	1	markdown/Dialects/OpenMPDialect/ODS.md
+ClauseNumThreadsTypeAttr	ClauseNumThreadsTypeAttr	1	markdown/Dialects/OpenMPDialect/ODS.md
+ClauseOrderKindAttr	ClauseOrderKindAttr	1	markdown/Dialects/OpenMPDialect/ODS.md
+OrderModifierAttr	OrderModifierAttr	1	markdown/Dialects/OpenMPDialect/ODS.md
+ClauseProcBindKindAttr	ClauseProcBindKindAttr	1	markdown/Dialects/OpenMPDialect/ODS.md
+ReductionModifierAttr	ReductionModifierAttr	1	markdown/Dialects/OpenMPDialect/ODS.md
+ClauseScheduleKindAttr	ClauseScheduleKindAttr	1	markdown/Dialects/OpenMPDialect/ODS.md
+ScheduleModifierAttr	ScheduleModifierAttr	1	markdown/Dialects/OpenMPDialect/ODS.md
+TargetExecModeAttr	TargetExecModeAttr	1	markdown/Dialects/OpenMPDialect/ODS.md
+ThreadsetPolicyAttr	ThreadsetPolicyAttr	1	markdown/Dialects/OpenMPDialect/ODS.md
+VariableCaptureKindAttr	VariableCaptureKindAttr	1	markdown/Dialects/OpenMPDialect/ODS.md
+VersionAttr	VersionAttr	1	markdown/Dialects/OpenMPDialect/ODS.md
+CanonicalLoopInfoType	CanonicalLoopInfoType	1	markdown/Dialects/OpenMPDialect/ODS.md
+AffinityEntryType	AffinityEntryType	1	markdown/Dialects/OpenMPDialect/ODS.md
+IteratedType	IteratedType	1	markdown/Dialects/OpenMPDialect/ODS.md
+MapBoundsType	MapBoundsType	1	markdown/Dialects/OpenMPDialect/ODS.md
+AccessGroupModifier	AccessGroupModifier	1	markdown/Dialects/OpenMPDialect/ODS.md
+ClauseBindKind	ClauseBindKind	1	markdown/Dialects/OpenMPDialect/ODS.md
+ClauseCancellationConstructType	ClauseCancellationConstructType	1	markdown/Dialects/OpenMPDialect/ODS.md
+ClauseDepend	ClauseDepend	1	markdown/Dialects/OpenMPDialect/ODS.md
+ClauseMapFlags	ClauseMapFlags	1	markdown/Dialects/OpenMPDialect/ODS.md
+ClauseRequires	ClauseRequires	1	markdown/Dialects/OpenMPDialect/ODS.md
+ClauseSeverity	ClauseSeverity	1	markdown/Dialects/OpenMPDialect/ODS.md
+ClauseTaskDepend	ClauseTaskDepend	1	markdown/Dialects/OpenMPDialect/ODS.md
+DataSharingClauseType	DataSharingClauseType	1	markdown/Dialects/OpenMPDialect/ODS.md
+DeclareTargetCaptureClause	DeclareTargetCaptureClause	1	markdown/Dialects/OpenMPDialect/ODS.md
+DeclareTargetDeviceType	DeclareTargetDeviceType	1	markdown/Dialects/OpenMPDialect/ODS.md
+FallbackModifier	FallbackModifier	1	markdown/Dialects/OpenMPDialect/ODS.md
+ClauseGrainsizeType	ClauseGrainsizeType	1	markdown/Dialects/OpenMPDialect/ODS.md
+InteropType	InteropType	1	markdown/Dialects/OpenMPDialect/ODS.md
+LinearModifier	LinearModifier	1	markdown/Dialects/OpenMPDialect/ODS.md
+ClauseMemoryOrderKind	ClauseMemoryOrderKind	1	markdown/Dialects/OpenMPDialect/ODS.md
+ClauseNumTasksType	ClauseNumTasksType	1	markdown/Dialects/OpenMPDialect/ODS.md
+ClauseNumThreadsType	ClauseNumThreadsType	1	markdown/Dialects/OpenMPDialect/ODS.md
+ClauseOrderKind	ClauseOrderKind	1	markdown/Dialects/OpenMPDialect/ODS.md
+OrderModifier	OrderModifier	1	markdown/Dialects/OpenMPDialect/ODS.md
+ClauseProcBindKind	ClauseProcBindKind	1	markdown/Dialects/OpenMPDialect/ODS.md
+ReductionModifier	ReductionModifier	1	markdown/Dialects/OpenMPDialect/ODS.md
+ClauseScheduleKind	ClauseScheduleKind	1	markdown/Dialects/OpenMPDialect/ODS.md
+ScheduleModifier	ScheduleModifier	1	markdown/Dialects/OpenMPDialect/ODS.md
+TargetExecMode	TargetExecMode	1	markdown/Dialects/OpenMPDialect/ODS.md
+ThreadsetPolicy	ThreadsetPolicy	1	markdown/Dialects/OpenMPDialect/ODS.md
+VariableCaptureKind	VariableCaptureKind	1	markdown/Dialects/OpenMPDialect/ODS.md
+Adding a Clause	添加子句	1	markdown/Dialects/OpenMPDialect.md
+Adding an Operation	添加操作	1	markdown/Dialects/OpenMPDialect.md
+Overriding Clause-Inherited Properties	覆盖从子句继承的属性	1	markdown/Dialects/OpenMPDialect.md
+Tablegen Verification Pass	TableGen 验证 Pass	1	markdown/Dialects/OpenMPDialect.md
+Operand Structures	操作数结构	1	markdown/Dialects/OpenMPDialect.md
+Entry Block Argument-Defining Clauses	定义入口块参数的子句	1	markdown/Dialects/OpenMPDialect.md
+Loop Transformations	循环变换	1	markdown/Dialects/OpenMPDialect.md
+Combined Constructs	组合构造	1	markdown/Dialects/OpenMPDialect.md
+Composite Constructs	复合构造	1	markdown/Dialects/OpenMPDialect.md
+AttributeType	AttributeType	1	markdown/Dialects/PDLOps.md
+RangeType	RangeType	1	markdown/Dialects/PDLOps.md
+TypeType	TypeType	1	markdown/Dialects/PDLOps.md
+AddressAttr	AddressAttr	1	markdown/Dialects/PtrOps.md
+GenericSpaceAttr	GenericSpaceAttr	1	markdown/Dialects/PtrOps.md
+NullAttr	NullAttr	1	markdown/Dialects/PtrOps.md
+SpecAttr	SpecAttr	1	markdown/Dialects/PtrOps.md
+PtrMetadataType	PtrMetadataType	1	markdown/Dialects/PtrOps.md
+PtrType	PtrType	1	markdown/Dialects/PtrOps.md
+AtomicBinOp	AtomicBinOp	1	markdown/Dialects/PtrOps.md
+AtomicOrdering	AtomicOrdering	1	markdown/Dialects/PtrOps.md
+PtrAddFlags	PtrAddFlags	1	markdown/Dialects/PtrOps.md
+PtrDiffFlags	PtrDiffFlags	1	markdown/Dialects/PtrOps.md
+Per-layer quantization	逐层量化	1	markdown/Dialects/QuantDialect.md
+Per-channel quantization	逐通道量化	1	markdown/Dialects/QuantDialect.md
+Sub-channel quantization	子通道量化	1	markdown/Dialects/QuantDialect.md
+QuantileType	QuantileType	1	markdown/Dialects/QuantDialect.md
+BufferOOBModeAttr	BufferOOBModeAttr	1	markdown/Dialects/ROCDLDialect.md
+BufferOOBModeModuleFlagAttr	BufferOOBModeModuleFlagAttr	1	markdown/Dialects/ROCDLDialect.md
+Gfx12AtomicCachePolicyAttr	Gfx12AtomicCachePolicyAttr	1	markdown/Dialects/ROCDLDialect.md
+Gfx12CachePolicyAttr	Gfx12CachePolicyAttr	1	markdown/Dialects/ROCDLDialect.md
+Gfx942CachePolicyAttr	Gfx942CachePolicyAttr	1	markdown/Dialects/ROCDLDialect.md
+MFMANegModifierAttr	MFMANegModifierAttr	1	markdown/Dialects/ROCDLDialect.md
+MFMAPermBAttr	MFMAPermBAttr	1	markdown/Dialects/ROCDLDialect.md
+MatrixFormatAttr	MatrixFormatAttr	1	markdown/Dialects/ROCDLDialect.md
+PreGfx12CachePolicyAttr	PreGfx12CachePolicyAttr	1	markdown/Dialects/ROCDLDialect.md
+SchedGroupMaskAttr	SchedGroupMaskAttr	1	markdown/Dialects/ROCDLDialect.md
+TBufferOOBModeModuleFlagAttr	TBufferOOBModeModuleFlagAttr	1	markdown/Dialects/ROCDLDialect.md
+ROCDLTargetAttr	ROCDLTargetAttr	1	markdown/Dialects/ROCDLDialect.md
+WMMACModifierAttr	WMMACModifierAttr	1	markdown/Dialects/ROCDLDialect.md
+WMMAMatrixScaleAttr	WMMAMatrixScaleAttr	1	markdown/Dialects/ROCDLDialect.md
+WMMAMatrixScaleFormatAttr	WMMAMatrixScaleFormatAttr	1	markdown/Dialects/ROCDLDialect.md
+BitVectorAttr	BitVectorAttr	1	markdown/Dialects/SMT.md
+BitVectorType	BitVectorType	1	markdown/Dialects/SMT.md
+BoolType	BoolType	1	markdown/Dialects/SMT.md
+IntType	IntType	1	markdown/Dialects/SMT.md
+SMTFuncType	SMTFuncType	1	markdown/Dialects/SMT.md
+SortType	SortType	1	markdown/Dialects/SMT.md
+BVCmpPredicate	BVCmpPredicate	1	markdown/Dialects/SMT.md
+IntPredicate	IntPredicate	1	markdown/Dialects/SMT.md
+Dialect design principles	方言设计原则	1	markdown/Dialects/SPIR-V.md
+Dialect scopes	方言作用域	1	markdown/Dialects/SPIR-V.md
+Module-level operations	模块级操作	1	markdown/Dialects/SPIR-V.md
+Function parameter and return decorations	函数参数与返回值装饰	1	markdown/Dialects/SPIR-V.md
+Array type	数组类型	1	markdown/Dialects/SPIR-V.md
+Image type	图像类型	1	markdown/Dialects/SPIR-V.md
+Pointer type	指针类型	1	markdown/Dialects/SPIR-V.md
+Runtime array type	运行时数组类型	1	markdown/Dialects/SPIR-V.md
+Sampled image type	采样图像类型	1	markdown/Dialects/SPIR-V.md
+Struct type	结构体类型	1	markdown/Dialects/SPIR-V.md
+Ops from extended instruction sets	来自扩展指令集的操作	1	markdown/Dialects/SPIR-V.md
+Selection	选择结构	1	markdown/Dialects/SPIR-V.md
+Loop	循环	1	markdown/Dialects/SPIR-V.md
+Block argument for Phi	Phi 的块参数	1	markdown/Dialects/SPIR-V.md
+Shader interface attributes	着色器接口属性	1	markdown/Dialects/SPIR-V.md
+Utility functions for lowering	下移辅助函数	1	markdown/Dialects/SPIR-V.md
+Current conversions to SPIR-V	当前到 SPIR-V 的转换	1	markdown/Dialects/SPIR-V.md
+The dialect	该方言	1	markdown/Dialects/SPIR-V.md
+Op definitions	Op 定义	1	markdown/Dialects/SPIR-V.md
+Dialect conversions	方言转换	1	markdown/Dialects/SPIR-V.md
+Automated development flow	自动化开发流程	1	markdown/Dialects/SPIR-V.md
+Add a new op	添加新的 op	1	markdown/Dialects/SPIR-V.md
+Add a new enum	添加新的枚举	1	markdown/Dialects/SPIR-V.md
+Add a new custom type	添加新的自定义类型	1	markdown/Dialects/SPIR-V.md
+Add a new conversion	添加新的转换	1	markdown/Dialects/SPIR-V.md
+Add a new test	添加新的测试	1	markdown/Dialects/SPIR-V.md
+ShapeType	ShapeType	1	markdown/Dialects/ShapeDialect.md
+SizeType	SizeType	1	markdown/Dialects/ShapeDialect.md
+ValueShapeType	ValueShapeType	1	markdown/Dialects/ShapeDialect.md
+WitnessType	WitnessType	1	markdown/Dialects/ShapeDialect.md
+Device Groups	设备组	1	markdown/Dialects/Shard.md
+In-group Devices	组内设备	1	markdown/Dialects/Shard.md
+Purity and Execution Model	纯度与执行模型	1	markdown/Dialects/Shard.md
+GridAxesArrayAttr	GridAxesArrayAttr	1	markdown/Dialects/Shard.md
+ReductionKindAttr	ReductionKindAttr	1	markdown/Dialects/Shard.md
+CrdTransDirectionKindAttr	CrdTransDirectionKindAttr	1	markdown/Dialects/SparseTensorOps.md
+SparseTensorDimSliceAttr	SparseTensorDimSliceAttr	1	markdown/Dialects/SparseTensorOps.md
+SparseTensorEncodingAttr	SparseTensorEncodingAttr	1	markdown/Dialects/SparseTensorOps.md
+SparseTensorSortKindAttr	SparseTensorSortKindAttr	1	markdown/Dialects/SparseTensorOps.md
+StorageSpecifierKindAttr	StorageSpecifierKindAttr	1	markdown/Dialects/SparseTensorOps.md
+IterSpaceType	IterSpaceType	1	markdown/Dialects/SparseTensorOps.md
+IteratorType	IteratorType	1	markdown/Dialects/SparseTensorOps.md
+StorageSpecifierType	StorageSpecifierType	1	markdown/Dialects/SparseTensorOps.md
+CrdTransDirectionKind	CrdTransDirectionKind	1	markdown/Dialects/SparseTensorOps.md
+SparseTensorSortKind	SparseTensorSortKind	1	markdown/Dialects/SparseTensorOps.md
+StorageSpecifierKind	StorageSpecifierKind	1	markdown/Dialects/SparseTensorOps.md
+Complete	完整模式	1	markdown/Dialects/TOSA.md
+Minimal	最小模式	1	markdown/Dialects/TOSA.md
+Numerical Precision	数值精度	1	markdown/Dialects/TOSA.md
+COND_IF and WHILE_LOOP	COND_IF 与 WHILE_LOOP	1	markdown/Dialects/TOSA.md
+Quantization Parameters in Ops vs Tensors	操作与张量中的量化参数	1	markdown/Dialects/TOSA.md
+Operation purity	操作纯度	1	markdown/Dialects/TOSA.md
+AffineMapParamType	AffineMapParamType	1	markdown/Dialects/Transform.md
+AnyOpType	AnyOpType	1	markdown/Dialects/Transform.md
+AnyParamType	AnyParamType	1	markdown/Dialects/Transform.md
+AnyValueType	AnyValueType	1	markdown/Dialects/Transform.md
+NormalizedOpType	NormalizedOpType	1	markdown/Dialects/Transform.md
+ParamType	ParamType	1	markdown/Dialects/Transform.md
+TypeParamType	TypeParamType	1	markdown/Dialects/Transform.md
+PoisonAttr	PoisonAttr	1	markdown/Dialects/UBOps.md
+LLVM level	LLVM 层级	1	markdown/Dialects/Vector.md
+Hardware Vector Ops	硬件向量操作	1	markdown/Dialects/Vector.md
+Virtual Vector Ops	虚拟向量操作	1	markdown/Dialects/Vector.md
+Virtual Vector Rewrite Patterns	虚拟向量重写模式	1	markdown/Dialects/Vector.md
+Virtual Vector to Hardware Vector Lowering	虚拟向量到硬件向量的下移	1	markdown/Dialects/Vector.md
+Transformations Problems Avoided	变换所避免的问题	1	markdown/Dialects/Vector.md
+The Big Out-Of-Scope Piece: Automatic Vectorization	最大的范围外主题：自动向量化	1	markdown/Dialects/Vector.md
+Alternatives For Lowering an n-D Vector Type to LLVM	将 n 维向量类型下移到 LLVM 的替代方案	1	markdown/Dialects/Vector.md
+Constraints Inherited from LLVM (see LangRef)	从 LLVM 继承的约束（参见 LangRef）	1	markdown/Dialects/Vector.md
+Nested Aggregate	嵌套聚合类型	1	markdown/Dialects/Vector.md
+Flattened 1-D Vector Type	扁平化的一维向量类型	1	markdown/Dialects/Vector.md
+Relationship to LLVM matrix type proposal.	与 LLVM 矩阵类型提案的关系。	1	markdown/Dialects/Vector.md
+Conclusion	结论	1	markdown/Dialects/Vector.md
+ExternRefType	ExternRefType	1	markdown/Dialects/WasmSSAOps.md
+FuncRefType	FuncRefType	1	markdown/Dialects/WasmSSAOps.md
+LimitType	LimitType	1	markdown/Dialects/WasmSSAOps.md
+LocalRefType	LocalRefType	1	markdown/Dialects/WasmSSAOps.md
+TableType	TableType	1	markdown/Dialects/WasmSSAOps.md
+AMXTileType	AMXTileType	1	markdown/Dialects/X86.md
+BlockTensorDescAttr	BlockTensorDescAttr	1	markdown/Dialects/XeGPU.md
+CachePolicyAttr	CachePolicyAttr	1	markdown/Dialects/XeGPU.md
+FenceScopeAttr	FenceScopeAttr	1	markdown/Dialects/XeGPU.md
+LaneShuffleModeAttr	LaneShuffleModeAttr	1	markdown/Dialects/XeGPU.md
+LayoutAttr	LayoutAttr	1	markdown/Dialects/XeGPU.md
+MemLayoutAttr	MemLayoutAttr	1	markdown/Dialects/XeGPU.md
+MemorySpaceAttr	MemorySpaceAttr	1	markdown/Dialects/XeGPU.md
+RangeAttr	RangeAttr	1	markdown/Dialects/XeGPU.md
+SliceAttr	SliceAttr	1	markdown/Dialects/XeGPU.md
+MemDescType	MemDescType	1	markdown/Dialects/XeGPU.md
+NbarrierType	NbarrierType	1	markdown/Dialects/XeGPU.md
+TensorDescType	TensorDescType	1	markdown/Dialects/XeGPU.md
+CachePolicy	CachePolicy	1	markdown/Dialects/XeGPU.md
+FenceScope	FenceScope	1	markdown/Dialects/XeGPU.md
+LaneShuffleMode	LaneShuffleMode	1	markdown/Dialects/XeGPU.md
+MemorySpace	MemorySpace	1	markdown/Dialects/XeGPU.md
+AddrSpaceAttr	AddrSpaceAttr	1	markdown/Dialects/XeVMDialect.md
+ExtfDstElemTypeAttr	ExtfDstElemTypeAttr	1	markdown/Dialects/XeVMDialect.md
+ExtfSrcElemTypeAttr	ExtfSrcElemTypeAttr	1	markdown/Dialects/XeVMDialect.md
+LoadCacheControlAttr	LoadCacheControlAttr	1	markdown/Dialects/XeVMDialect.md
+MMAShapeAttr	MMAShapeAttr	1	markdown/Dialects/XeVMDialect.md
+MMATypesAttr	MMATypesAttr	1	markdown/Dialects/XeVMDialect.md
+MemScopeAttr	MemScopeAttr	1	markdown/Dialects/XeVMDialect.md
+StoreCacheControlAttr	StoreCacheControlAttr	1	markdown/Dialects/XeVMDialect.md
+XeVMTargetAttr	XeVMTargetAttr	1	markdown/Dialects/XeVMDialect.md
+TruncfDstElemTypeAttr	TruncfDstElemTypeAttr	1	markdown/Dialects/XeVMDialect.md
+TruncfSrcElemTypeAttr	TruncfSrcElemTypeAttr	1	markdown/Dialects/XeVMDialect.md
+AddrSpace	AddrSpace	1	markdown/Dialects/XeVMDialect.md
+ElemType	ElemType	1	markdown/Dialects/XeVMDialect.md
+ExtfDstElemTypes	ExtfDstElemTypes	1	markdown/Dialects/XeVMDialect.md
+ExtfSrcElemTypes	ExtfSrcElemTypes	1	markdown/Dialects/XeVMDialect.md
+LoadCacheControl	LoadCacheControl	1	markdown/Dialects/XeVMDialect.md
+MemScope	MemScope	1	markdown/Dialects/XeVMDialect.md
+StoreCacheControl	StoreCacheControl	1	markdown/Dialects/XeVMDialect.md
+TruncfDstElemTypes	TruncfDstElemTypes	1	markdown/Dialects/XeVMDialect.md
+TruncfSrcElemTypes	TruncfSrcElemTypes	1	markdown/Dialects/XeVMDialect.md
+Dialect Interfaces	方言接口	1	markdown/Interfaces.md
+Attribute/Operation/Type Interfaces	属性/操作/类型接口	1	markdown/Interfaces.md
+Common syntax	通用语法	1	markdown/LangRef.md
+Top level Productions	顶层产生式	1	markdown/LangRef.md
+Identifiers and keywords	标识符与关键字	1	markdown/LangRef.md
+Target specific operations	目标特定操作	1	markdown/LangRef.md
+Builtin Operations	内置操作	1	markdown/LangRef.md
+Definition	定义	1	markdown/LangRef.md
+Value Scoping	值的作用域	1	markdown/LangRef.md
+Control Flow and SSACFG Regions	控制流与 SSACFG 区域	1	markdown/LangRef.md
+Graph Regions	图区域	1	markdown/LangRef.md
+Arguments and Results	参数与结果	1	markdown/LangRef.md
+Type Aliases	类型别名	1	markdown/LangRef.md
+Dialect Types	方言类型	1	markdown/LangRef.md
+Builtin Types	内置类型	1	markdown/LangRef.md
+Token Type	Token 类型	1	markdown/LangRef.md
+Attribute Value Aliases	属性值别名	1	markdown/LangRef.md
+Dialect Attribute Values	方言属性值	1	markdown/LangRef.md
+Builtin Attribute Values	内置属性值	1	markdown/LangRef.md
+IR Versioning	IR 版本管理	1	markdown/LangRef.md
+Generic Lowering	通用下移	1	markdown/OwnershipBasedBufferDeallocation.md
+Specialized Lowerings	专用下移	1	markdown/OwnershipBasedBufferDeallocation.md
+Why build a new language instead of improving TableGen DRR?	为什么要构建新语言，而不是改进 TableGen DRR？	1	markdown/PDLL.md
+Why not build a DSL in "X"?	为什么不在“X”中构建 DSL？	1	markdown/PDLL.md
+Includes	包含项	1	markdown/PDLL.md
+Patterns	模式	1	markdown/PDLL.md
+Variables	变量	1	markdown/PDLL.md
+Operation Expression	操作表达式	1	markdown/PDLL.md
+Attribute Expression	属性表达式	1	markdown/PDLL.md
+Type Expression	类型表达式	1	markdown/PDLL.md
+Tuples	元组	1	markdown/PDLL.md
+Rewriters	重写器	1	markdown/PDLL.md
+Op-Agnostic Operation Passes	与 Op 无关的操作 Pass	1	markdown/PassManagement.md
+Filtered Operation Pass	过滤式操作 Pass	1	markdown/PassManagement.md
+Operation Pass: Static Schedule Filtering	操作 Pass：静态调度过滤	1	markdown/PassManagement.md
+Querying Analyses	查询分析结果	1	markdown/PassManagement.md
+Preserving Analyses	保留分析结果	1	markdown/PassManagement.md
+OpPassManager	OpPassManager	1	markdown/PassManagement.md
+Pass Pipeline Registration	Pass 流水线注册	1	markdown/PassManagement.md
+Textual Pass Pipeline Specification	文本形式的 Pass 流水线规范	1	markdown/PassManagement.md
+Tablegen Specification	TableGen 规范	1	markdown/PassManagement.md
+Standard Instrumentations	标准检测工具	1	markdown/PassManagement.md
+Local Reproducer Generation	本地复现器生成	1	markdown/PassManagement.md
+NVVM-specific 'gpu' Dialect Passes	NVVM 专用 gpu 方言 Pass	1	markdown/Passes.md
+ROCDL-specific 'gpu' Dialect Passes	ROCDL 专用 gpu 方言 Pass	1	markdown/Passes.md
+SPIR-V-specific 'gpu' Dialect Passes	SPIR-V 专用 gpu 方言 Pass	1	markdown/Passes.md
+XeVM-specific 'gpu' Dialect Passes	XeVM 专用 gpu 方言 Pass	1	markdown/Passes.md
+Benefit	收益	1	markdown/PatternRewriter.md
+Root Operation Name (Optional)	根操作名称（可选）	1	markdown/PatternRewriter.md
+Application Recursion	应用递归	1	markdown/PatternRewriter.md
+Debug Names and Labels	调试名称与标签	1	markdown/PatternRewriter.md
+Construction	构造	1	markdown/PatternRewriter.md
+Dialect Conversion Driver	方言转换驱动器	1	markdown/PatternRewriter.md
+Walk Pattern Rewrite Driver	遍历式模式重写驱动器	1	markdown/PatternRewriter.md
+Greedy Pattern Rewrite Driver	贪心模式重写驱动器	1	markdown/PatternRewriter.md
+Pattern Filtering	模式过滤	1	markdown/PatternRewriter.md
+Common Pass Utilities	通用 Pass 工具	1	markdown/PatternRewriter.md
+Fixed point values	定点值	1	markdown/Quantization.md
+Affine values	仿射值	1	markdown/Quantization.md
+Relation	关系	1	markdown/Quantization.md
+Converting between real and fixed point or affine	实数与定点或仿射值之间的转换	1	markdown/Quantization.md
+Quantized type	量化类型	1	markdown/Quantization.md
+Quantized type conversion operations	量化类型转换操作	1	markdown/Quantization.md
+Instrumentation and constraint operations	检测与约束操作	1	markdown/Quantization.md
+General algorithm	通用算法	1	markdown/Quantization.md
+How is MLIR relevant?	MLIR 有何关联？	1	markdown/Rationale/MLIRForGraphAlgorithms.md
+What does adoption mean?	采用意味着什么？	1	markdown/Rationale/MLIRForGraphAlgorithms.md
+A Lossless Human Editable Textual Representation	可由人编辑且无损的文本表示	1	markdown/Rationale/MLIRForGraphAlgorithms.md
+A Graph Verification Pass	图验证 Pass	1	markdown/Rationale/MLIRForGraphAlgorithms.md
+Designed for Testability	面向可测试性设计	1	markdown/Rationale/MLIRForGraphAlgorithms.md
+Infrastructure for Warnings and Error Diagnostics and Location Tracking	警告、错误诊断与位置跟踪基础设施	1	markdown/Rationale/MLIRForGraphAlgorithms.md
+Shape Information Captured in the IR	IR 中捕获的形状信息	1	markdown/Rationale/MLIRForGraphAlgorithms.md
+Unified Graph Rewriting Infrastructure	统一的图重写基础设施	1	markdown/Rationale/MLIRForGraphAlgorithms.md
+Clarified Semantics for TensorFlow Operations	明确 TensorFlow 操作的语义	1	markdown/Rationale/MLIRForGraphAlgorithms.md
+Ergonomics	易用性	1	markdown/Rationale/MLIRForGraphAlgorithms.md
+Compile Time Performance and Memory Use	编译时性能与内存使用	1	markdown/Rationale/MLIRForGraphAlgorithms.md
+Isn't MLIR a big dependency to take on?	MLIR 是否是一个沉重的依赖？	1	markdown/Rationale/MLIRForGraphAlgorithms.md
+How does MLIR represent {control flow, concurrency, …} semantics in TensorFlow?	MLIR 如何在 TensorFlow 中表示{控制流、并发等}语义？	1	markdown/Rationale/MLIRForGraphAlgorithms.md
+Non Goals	非目标	1	markdown/Rationale/MLIRForGraphAlgorithms.md
+Loads and stores	加载与存储	1	markdown/Rationale/Rationale.md
+Symbols and types	符号与类型	1	markdown/Rationale/Rationale.md
+Block Arguments vs PHI nodes	块参数与 PHI 节点	1	markdown/Rationale/Rationale.md
+Index type usage and limitations	Index 类型的用法与限制	1	markdown/Rationale/Rationale.md
+Data layout of non-primitive types	非基本类型的数据布局	1	markdown/Rationale/Rationale.md
+Integer signedness semantics	整数有符号性的语义	1	markdown/Rationale/Rationale.md
+Splitting floating point vs integer operations	浮点操作与整数操作的拆分	1	markdown/Rationale/Rationale.md
+Specifying sign in integer comparison operations	在整数比较操作中指定符号性	1	markdown/Rationale/Rationale.md
+Specifying comparison kind as attribute	将比较类型指定为属性	1	markdown/Rationale/Rationale.md
+Dialect type extensions	方言类型扩展	1	markdown/Rationale/Rationale.md
+Tuple types	元组类型	1	markdown/Rationale/Rationale.md
+Assembly forms	汇编形式	1	markdown/Rationale/Rationale.md
+Non-affine control flow	非仿射控制流	1	markdown/Rationale/Rationale.md
+Non-affine loop bounds	非仿射循环边界	1	markdown/Rationale/Rationale.md
+Reference 2D Convolution	二维卷积参考示例	1	markdown/Rationale/Rationale.md
+Polyhedral code representation alternatives: schedule lists vs schedules trees vs affine loop/if forms	多面体代码表示方案：调度列表、调度树与仿射循环/条件形式	1	markdown/Rationale/Rationale.md
+Affine Relations	仿射关系	1	markdown/Rationale/Rationale.md
+Read/Write/May_Read/May_Write sets for External Functions	外部函数的 Read/Write/May_Read/May_Write 集合	1	markdown/Rationale/Rationale.md
+Memref Extensions	Memref 扩展	1	markdown/Rationale/Rationale.md
+Multithreading the compiler	编译器多线程化	1	markdown/Rationale/Rationale.md
+Constant folding	常量折叠	1	markdown/Rationale/RationaleGenericDAGRewriter.md
+AST-Level Pattern Matchers	AST 级模式匹配器	1	markdown/Rationale/RationaleGenericDAGRewriter.md
+"Combiners" and other peephole optimizers	“组合器”及其他窥孔优化器	1	markdown/Rationale/RationaleGenericDAGRewriter.md
+LLVM's DAG-to-DAG Instruction Selection Infrastructure	LLVM 的 DAG 到 DAG 指令选择基础设施	1	markdown/Rationale/RationaleGenericDAGRewriter.md
+Summary	总结	1	markdown/Rationale/RationaleGenericDAGRewriter.md
+Non goals	非目标	1	markdown/Rationale/RationaleGenericDAGRewriter.md
+Positioning	定位	1	markdown/Rationale/RationaleLinalgDialect.md
+Inception	起源	1	markdown/Rationale/RationaleLinalgDialect.md
+Evolution	演进	1	markdown/Rationale/RationaleLinalgDialect.md
+Lessons from ONNX	从 ONNX 获得的经验	1	markdown/Rationale/RationaleLinalgDialect.md
+Lessons from LIFT	从 LIFT 获得的经验	1	markdown/Rationale/RationaleLinalgDialect.md
+Lessons from XLA	从 XLA 获得的经验	1	markdown/Rationale/RationaleLinalgDialect.md
+Lessons from Halide and TVM	从 Halide 与 TVM 获得的经验	1	markdown/Rationale/RationaleLinalgDialect.md
+Lessons from Tensor Comprehensions	从 Tensor Comprehensions 获得的经验	1	markdown/Rationale/RationaleLinalgDialect.md
+Lessons from Polyhedral compilers	从多面体编译器获得的经验	1	markdown/Rationale/RationaleLinalgDialect.md
+Lessons from the Affine dialect	从 Affine 方言获得的经验	1	markdown/Rationale/RationaleLinalgDialect.md
+Transformations and Simplicity First	变换与简洁优先	1	markdown/Rationale/RationaleLinalgDialect.md
+Preservation of Information	信息保留	1	markdown/Rationale/RationaleLinalgDialect.md
+Interchangeability of Forms	形式的可互换性	1	markdown/Rationale/RationaleLinalgDialect.md
+Composable and Declarative Transformations	可组合的声明式变换	1	markdown/Rationale/RationaleLinalgDialect.md
+Suitability for Search and Machine Learning	适用于搜索与机器学习	1	markdown/Rationale/RationaleLinalgDialect.md
+Extensibility and Future-Proofness	可扩展性与面向未来	1	markdown/Rationale/RationaleLinalgDialect.md
+Algorithms + Data Structures = Programs	算法 + 数据结构 = 程序	1	markdown/Rationale/RationaleLinalgDialect.md
+The Dialect Need not be Closed Under Transformations	方言无需对变换封闭	1	markdown/Rationale/RationaleLinalgDialect.md
+Summary of Existing Alternatives a Picture	现有替代方案概览	1	markdown/Rationale/RationaleLinalgDialect.md
+Commonality: can express same computation	共同点：能够表达相同计算	1	markdown/Rationale/RationaleSimplifiedPolyhedralForm.md
+Commonality: dependence analysis	共同点：依赖分析	1	markdown/Rationale/RationaleSimplifiedPolyhedralForm.md
+Commonality: difficulty of determining optimal transformation series	共同点：难以确定最优变换序列	1	markdown/Rationale/RationaleSimplifiedPolyhedralForm.md
+Commonality: compactness of IR	共同点：IR 的紧凑性	1	markdown/Rationale/RationaleSimplifiedPolyhedralForm.md
+Simplicity of code generation	代码生成的简洁性	1	markdown/Rationale/RationaleSimplifiedPolyhedralForm.md
+Ease of transformation	变换的简易性	1	markdown/Rationale/RationaleSimplifiedPolyhedralForm.md
+Ease of analysis: Cost models	分析的简易性：成本模型	1	markdown/Rationale/RationaleSimplifiedPolyhedralForm.md
+Cost of code generation	代码生成成本	1	markdown/Rationale/RationaleSimplifiedPolyhedralForm.md
+SSA in ML Functions	ML 函数中的 SSA	1	markdown/Rationale/RationaleSimplifiedPolyhedralForm.md
+Lack of redundancy in IR	IR 中缺少冗余	1	markdown/Rationale/RationaleSimplifiedPolyhedralForm.md
+Suitability to purpose: lowering to machine code	用途适配性：下移到机器码	1	markdown/Rationale/RationaleSimplifiedPolyhedralForm.md
+Resource hierarchy and scope	资源层次结构与作用域	1	markdown/Rationale/SideEffectsAndSpeculation.md
+SIMD compute operation	SIMD 计算操作	1	markdown/Rationale/SideEffectsAndSpeculation.md
+Load like operation	类似加载的操作	1	markdown/Rationale/SideEffectsAndSpeculation.md
+Pervasively duplicated accessors	大量重复的访问器	1	markdown/Rationale/UsageOfConst.md
+Templated accessors	模板化访问器	1	markdown/Rationale/UsageOfConst.md
+Const incorrect in practice	Const 在实践中的不适用性	1	markdown/Rationale/UsageOfConst.md
+Context Locking Without Parallel Execution	无并行执行时的上下文锁定	1	markdown/ReleaseNotes.md
+GPU/AMDGPU Changes	GPU/AMDGPU 变更	1	markdown/ReleaseNotes.md
+Target-Independent GPU Transforms	目标无关的 GPU 变换	1	markdown/ReleaseNotes.md
+GPU/NVVM Changes	GPU/NVVM 变更	1	markdown/ReleaseNotes.md
+Bytecode	字节码	1	markdown/ReleaseNotes.md
+Others	其他	1	markdown/ReleaseNotes.md
+RemarkEngine	RemarkEngine	1	markdown/Remarks.md
+MLIRRemarkStreamerBase	MLIRRemarkStreamerBase	1	markdown/Remarks.md
+Passed	通过	1	markdown/Remarks.md
+Missed	未命中	1	markdown/Remarks.md
+Failure	失败	1	markdown/Remarks.md
+Analysis	分析	1	markdown/Remarks.md
+Configuring Remark Options	配置 Remark 选项	1	markdown/Remarks.md
+Basic Example	基本示例	1	markdown/Remarks.md
+String Shorthand	字符串简写	1	markdown/Remarks.md
+Custom Metrics	自定义指标	1	markdown/Remarks.md
+RemarkEmittingPolicyAll	RemarkEmittingPolicyAll	1	markdown/Remarks.md
+RemarkEmittingPolicyFinal	RemarkEmittingPolicyFinal	1	markdown/Remarks.md
+Option 1: LLVM Remark Streamer (YAML or Bitstream)	选项 1：LLVM Remark Streamer（YAML 或位流）	1	markdown/Remarks.md
+Option 2: Diagnostic Engine (No Streamer)	选项 2：诊断引擎（无 Streamer）	1	markdown/Remarks.md
+Option 3: Custom Streamer	选项 3：自定义 Streamer	1	markdown/Remarks.md
+Scalar types	标量类型	1	markdown/SPIRVToLLVMDialectConversion.md
+Vector types	向量类型	1	markdown/SPIRVToLLVMDialectConversion.md
+Pointer types	指针类型	1	markdown/SPIRVToLLVMDialectConversion.md
+Array types	数组类型	1	markdown/SPIRVToLLVMDialectConversion.md
+Struct types	结构体类型	1	markdown/SPIRVToLLVMDialectConversion.md
+Not implemented types	未实现的类型	1	markdown/SPIRVToLLVMDialectConversion.md
+Arithmetic ops	算术操作	1	markdown/SPIRVToLLVMDialectConversion.md
+Bitwise ops	位运算操作	1	markdown/SPIRVToLLVMDialectConversion.md
+Cast ops	类型转换操作	1	markdown/SPIRVToLLVMDialectConversion.md
+Comparison ops	比较操作	1	markdown/SPIRVToLLVMDialectConversion.md
+Composite ops	复合操作	1	markdown/SPIRVToLLVMDialectConversion.md
+Logical ops	逻辑操作	1	markdown/SPIRVToLLVMDialectConversion.md
+Memory ops	内存操作	1	markdown/SPIRVToLLVMDialectConversion.md
+Miscellaneous ops with direct conversions	可直接转换的其他操作	1	markdown/SPIRVToLLVMDialectConversion.md
+Shift ops	移位操作	1	markdown/SPIRVToLLVMDialectConversion.md
+Not implemented ops	未实现的操作	1	markdown/SPIRVToLLVMDialectConversion.md
+Branch ops	分支操作	1	markdown/SPIRVToLLVMDialectConversion.md
+Direct conversions	直接转换	1	markdown/SPIRVToLLVMDialectConversion.md
+Special cases	特殊情况	1	markdown/SPIRVToLLVMDialectConversion.md
+Pipeline	流水线	1	markdown/SPIRVToLLVMDialectConversion.md
+Walk-through	演练	1	markdown/SPIRVToLLVMDialectConversion.md
+Requirements	需求	1	markdown/ShapeInference.md
+Possibly Asked Questions	可能被问到的问题	1	markdown/ShapeInference.md
+Open points	待解决问题	1	markdown/ShapeInference.md
+Defining or declaring a Symbol	定义或声明符号	1	markdown/SymbolsAndSymbolTables.md
+Referencing a Symbol	引用符号	1	markdown/SymbolsAndSymbolTables.md
+Manipulating a Symbol	操作符号	1	markdown/SymbolsAndSymbolTables.md
+Conversion of Built-in Types	内置类型转换	1	markdown/TargetLLVMIR.md
+Conversion of LLVM Container Types with Non-Compatible Element Types	元素类型不兼容的 LLVM 容器类型转换	1	markdown/TargetLLVMIR.md
+Calling Conventions	调用约定	1	markdown/TargetLLVMIR.md
+Generic alloction and deallocation functions	通用分配与释放函数	1	markdown/TargetLLVMIR.md
+C-compatible wrapper emission	生成 C 兼容包装器	1	markdown/TargetLLVMIR.md
+Address Computation	地址计算	1	markdown/TargetLLVMIR.md
+Utility Classes	工具类	1	markdown/TargetLLVMIR.md
+Non-forwarding Semantics	非转发语义	1	markdown/Tokens.md
+Supporting custom dialects	支持自定义方言	1	markdown/Tools/MLIRLSP.md
+Communication and Transport	通信与传输	1	markdown/Tools/MLIRLSP.md
+Language Server Protocol	语言服务器协议	1	markdown/Tools/MLIRLSP.md
+Language-Specific Server	特定语言的服务器	1	markdown/Tools/MLIRLSP.md
+Visual Studio Code	Visual Studio Code	1	markdown/Tools/MLIRLSP.md
+Example MLIR input	MLIR 输入示例	1	markdown/Tools/mlir-reduce.md
+Write the script for testing interestingness	编写用于测试 interestingness 的脚本	1	markdown/Tools/mlir-reduce.md
+Running the example	运行示例	1	markdown/Tools/mlir-reduce.md
+Operation elimination	操作消除	1	markdown/Tools/mlir-reduce.md
+Rewrite patterns into simpler forms	将重写模式化简	1	markdown/Tools/mlir-reduce.md
+Reduce with built-in optimization passes	使用内置优化 Pass 进行归约	1	markdown/Tools/mlir-reduce.md
+Extra Declarations and Definitions	额外声明与定义	1	markdown/Traits.md
+Parametric Traits	参数化 Trait	1	markdown/Traits.md
+Attaching Operation Traits in ODS	在 ODS 中附加操作 Trait	1	markdown/Traits.md
+AffineScope	AffineScope	1	markdown/Traits.md
+AutomaticAllocationScope	AutomaticAllocationScope	1	markdown/Traits.md
+Broadcastable	Broadcastable	1	markdown/Traits.md
+Commutative	Commutative	1	markdown/Traits.md
+ElementwiseMappable	ElementwiseMappable	1	markdown/Traits.md
+HasParent	HasParent	1	markdown/Traits.md
+HasAncestor	HasAncestor	1	markdown/Traits.md
+IsolatedFromAbove	IsolatedFromAbove	1	markdown/Traits.md
+MemRefsNormalizable	MemRefsNormalizable	1	markdown/Traits.md
+Single Block Region	单块区域	1	markdown/Traits.md
+Single Block with Implicit Terminator	带隐式终结符的单块区域	1	markdown/Traits.md
+SymbolTable	SymbolTable	1	markdown/Traits.md
+Terminator	终结符	1	markdown/Traits.md
+TokenProducerTrait	TokenProducerTrait	1	markdown/Traits.md
+TokenConsumerTrait	TokenConsumerTrait	1	markdown/Traits.md
+TableGen Targets	TableGen 目标	1	markdown/Tutorials/CreatingADialect.md
+Library Targets	库目标	1	markdown/Tutorials/CreatingADialect.md
+Lattices	格	1	markdown/Tutorials/DataFlowAnalysis.md
+ForwardDataflowAnalysis Driver	前向数据流分析驱动器	1	markdown/Tutorials/DataFlowAnalysis.md
+TableGen patterns	TableGen 模式	1	markdown/Tutorials/QuickstartRewrites.md
+Register the pattern	注册模式	1	markdown/Tutorials/QuickstartRewrites.md
+Opaque API	不透明 API	1	markdown/Tutorials/Toy/Ch-2.md
+Op vs Operation: Using MLIR Operations	Op 与 Operation：使用 MLIR 操作	1	markdown/Tutorials/Toy/Ch-2.md
+Using the Operation Definition Specification (ODS) Framework	使用 Operation Definition Specification（ODS）框架	1	markdown/Tutorials/Toy/Ch-2.md
+Inlining	内联	1	markdown/Tutorials/Toy/Ch-4.md
+Intraprocedural Shape Inference	过程内形状推断	1	markdown/Tutorials/Toy/Ch-4.md
+Design Considerations With Partial Lowering	部分下移的设计考量	1	markdown/Tutorials/Toy/Ch-5.md
+Full Lowering	完全下移	1	markdown/Tutorials/Toy/Ch-6.md
+Emitting LLVM IR	生成 LLVM IR	1	markdown/Tutorials/Toy/Ch-6.md
+Setting up a JIT	设置 JIT	1	markdown/Tutorials/Toy/Ch-6.md
+Defining the Type Class	定义 Type 类	1	markdown/Tutorials/Toy/Ch-7.md
+Exposing to ODS	向 ODS 暴露	1	markdown/Tutorials/Toy/Ch-7.md
+Walkers	遍历器	1	markdown/Tutorials/UnderstandingTheIRStructure.md

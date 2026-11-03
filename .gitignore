@@ -1,0 +1,13 @@
+# 生成物：可随时重建，不进版本库
+site/
+markdown/
+print/
+ALL_DOCS.md
+crawl_report.txt
+*.part
+
+# 备份 / 缓存
+i18n/*.bak
+i18n/*.tsv.bak
+__pycache__/
+*.pyc
